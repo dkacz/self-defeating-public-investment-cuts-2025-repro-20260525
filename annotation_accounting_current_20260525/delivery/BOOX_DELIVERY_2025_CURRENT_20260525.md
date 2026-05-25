@@ -13,11 +13,11 @@ Status: `PASS`.
 
 ## Hashes
 
-- EPUB SHA-256: `c924666587f2d7914597301d231193e7713c2aacd100d357c22c47b9639a7f21`
-- HTML SHA-256: `b5eef4a1a660c91f5e34da30dac6d3057edc67ae6dff1057647b5cd3c2a9349d`
-- Markdown SHA-256: `7e1d58b11b9f1d6f6161d6c15e231422a7150ac62890d3fa30180f51e343d4a9`
-- Checksum sidecar SHA-256: `6e1c610e36c1a94ffeb3ddb3e53d1f92af5d963f6b935cb1a1f979c31bce5e96`
+- EPUB SHA-256: `49009af8910916ca6498a045eb7a9dda514e47ae67b87d6738fa09546019dd5a`
+- HTML SHA-256: `91fe3fef514eeba0a274c04817105ed19e08d1a2abdc70444631521643b0a43d`
+- Markdown SHA-256: `a3635078e518d7c21b2dc72dbc2fa2c124d2061a4b7ea53cffc6ea6725ff140a`
+- Checksum sidecar SHA-256: `e046e5d80b0bd6a468b436f55214ccbd316c13db5502ef6082e89f8930a3875f`
 
 ## Meaning
 
-The Boox accounting matches the current public notebook: it reports 601 cells, 280 code cells, a 10-line code-cell maximum and 6/6 paper-number consistency checks. The paper numbers themselves are unchanged.
+The Boox accounting matches the current public notebook: it reports 611 cells, 285 code cells, a 10-line code-cell maximum and 6/6 paper-number consistency checks. The paper numbers themselves are unchanged.
