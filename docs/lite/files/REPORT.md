@@ -3,9 +3,9 @@
 Date: 2026-05-25T05:48:24Z
 Updated locally: 2026-05-25 after public-notebook remediation
 
-Status: `PUBLIC_READER_NOTEBOOK_REFRESH_PASS_PENDING_BOOX_AND_FINAL_REVIEW`.
+Status: `PUBLIC_READER_NOTEBOOK_AND_BOOX_ACCOUNTING_REFRESH_PASS_PENDING_FINAL_REVIEW`.
 
-This package originally exposed the current accepted 2025 notebook and article layer after strict Pro R6. After the later Pro remediation verdict and operator review, the public notebook layer has been rebuilt as a reader-facing executed notebook and refreshed on GitHub Pages. The accepted numbers do not change. Boox/current annotation accounting, wiki state and final public-delivery review still need to be refreshed before the broader delivery goal can be treated as closed.
+This package originally exposed the current accepted 2025 notebook and article layer after strict Pro R6. After the later Pro remediation verdict and operator review, the public notebook layer has been rebuilt as a reader-facing executed notebook and refreshed on GitHub Pages. The Boox/current annotation-accounting layer has also been refreshed as R840 to mention the public notebook rebuild explicitly. The accepted numbers do not change. Wiki state and final public-delivery review still need to be refreshed before the broader delivery goal can be treated as closed.
 
 ## 2026-05-25 reader-notebook rebuild
 
@@ -25,13 +25,14 @@ This package originally exposed the current accepted 2025 notebook and article l
 - Public raw notebook HTTP: `200`, bytes `283808`, SHA-256 `0f89505b103934992b325e4510b588fb2c13afc077d2464a77681cd4bc3c8a5f`
 - Old audit-framed public notebook URL: `404`
 - Full public package ZIP checksum is published in `docs/downloads/full_public_2025_repro_package.zip.sha256`.
+- Current Boox/accounting update: `Annotation_Accounting_2025_Current_R840_20260525.epub`, SHA-256 `9ca0d4daf59263b53dc0846ff770669dcd99357f9a2ec4f65892fb0af5718b00`
 
 ## Public URLs
 
 - Landing page: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/`
 - Notebook: rendered directly at the landing page above.
 - Raw notebook: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/notebooks/self_defeating_public_investment_cuts_2025_reproducibility.ipynb`
-- Current annotation-accounting EPUB: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/annotation_accounting_current_r836_20260525/Annotation_Accounting_2025_Current_R836_20260525.epub`
+- Current annotation-accounting EPUB: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/annotation_accounting_current_r840_20260525/Annotation_Accounting_2025_Current_R840_20260525.epub`
 
 ## Key hashes
 
