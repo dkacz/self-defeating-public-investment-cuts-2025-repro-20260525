@@ -1,5 +1,0 @@
-contract_check,passed,detail
-all_stages_have_visible_code,True,18/18 stages have visible notebook code tokens.
-no_stage_is_frozen_result_only,True,No estimation stage is satisfied by pointing only to a frozen result table.
-no_external_estimator_reference,True,The old external full-estimator script names are absent from notebook source.
-paper_surface_has_table_and_figure_generation,True,"Tables, figures and article-number mapping are explicit notebook stages."
