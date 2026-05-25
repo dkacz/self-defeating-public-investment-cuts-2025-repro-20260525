@@ -1,11 +1,11 @@
 # Repro status
 
-Current status: `PUBLIC_READER_NOTEBOOK_GRANULAR_REBUILD_PASS_PENDING_FINAL_PRO_REVIEW`.
+Current status: public notebook and package synchronized; final closure review remains open.
 
-The package includes the accepted 2025 granular notebook, copied source data, current result ledgers, article source, article renders, Boox delivery evidence, annotation-accounting evidence and final Pro harvest summary.
+The public notebook is rendered directly on the landing page and is also available as a raw notebook file. It has 589 cells, 273 code cells, a maximum of 10 nonblank code lines per code cell, no multi-output code cells and a visible paper-number consistency section.
 
-Update 2026-05-25: after the public-notebook remediation verdict and operator review, the reader-facing notebook has been rebuilt as `docs/notebooks/self_defeating_public_investment_cuts_2025_reproducibility.ipynb` and rendered to `docs/index.html`. Local execution passes with `589` cells, `273` code cells, maximum `10` nonblank code lines per code cell, `273/273` adjacent econometric explanations and no execution errors. The notebook includes a visible paper-number consistency table: `6/6` reference tables pass, covering retained response paths, debt endpoints, model admission, the p-value appendix table and uncertainty summaries.
+Paper-number consistency passes 6/6 checks: retained response paths, retained debt endpoints, all 2036 debt endpoints, the model-admission screen, the p-value appendix table and the uncertainty summary. The maximum absolute difference against paper-reference tables is 1.4210854715202004e-14.
 
-Public server QA passed on 2026-05-25: GitHub Pages is built from `main:/docs`; the landing page, raw notebook, full package ZIP, checksum sidecar and manifest return HTTP `200`; the old audit-framed notebook returns HTTP `404`; public hashes match local hashes.
+The public package uses official Eurostat values where available through 2025 and does not fabricate TiVA after its official 2022 endpoint. Ireland stays in the panel except where the missing 2025 household financial-account observation makes a state-specific calculation unavailable.
 
-Boox QA passed on 2026-05-25: clean current annotation-accounting Markdown, HTML, EPUB and checksum sidecar are present on the Boox Drive path with matching downloaded hashes. The Boox accounting now reports the same notebook facts as the public server.
+Paper-truth impact: no empirical paper number changes. This status file describes the public delivery layer only.

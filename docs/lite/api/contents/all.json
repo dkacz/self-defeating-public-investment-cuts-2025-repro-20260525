@@ -78,20 +78,6 @@
       "hash_algorithm": null,
       "last_modified": "2026-05-25T00:00:00Z",
       "mimetype": null,
-      "name": "qa",
-      "path": "qa",
-      "size": null,
-      "type": "directory",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2026-05-25T00:00:00Z",
-      "format": null,
-      "hash": null,
-      "hash_algorithm": null,
-      "last_modified": "2026-05-25T00:00:00Z",
-      "mimetype": null,
       "name": "results",
       "path": "results",
       "size": null,
@@ -178,7 +164,7 @@
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "README.md",
-      "size": 491,
+      "size": 873,
       "type": "file",
       "writable": true
     },
@@ -192,7 +178,7 @@
       "mimetype": "text/markdown",
       "name": "REPORT.md",
       "path": "REPORT.md",
-      "size": 1234,
+      "size": 1325,
       "type": "file",
       "writable": true
     },
@@ -206,7 +192,7 @@
       "mimetype": "text/markdown",
       "name": "REPRO_STATUS.md",
       "path": "REPRO_STATUS.md",
-      "size": 348,
+      "size": 1072,
       "type": "file",
       "writable": true
     },
