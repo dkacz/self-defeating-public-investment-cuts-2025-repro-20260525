@@ -11,6 +11,7 @@
 !delivery/**
 !docs/
 docs/*
+!docs/notebook.html
 !docs/annotation_accounting_current_20260525/
 !docs/annotation_accounting_current_20260525/**
 !qa/
