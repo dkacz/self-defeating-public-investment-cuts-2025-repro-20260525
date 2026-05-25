@@ -12,6 +12,7 @@ Public commits:
 - `b1ce13f` (`Record public reader notebook deployment status`)
 - `b756838` (`Remove self-referential deployment hashes`)
 - `71a5740` (`Publish current annotation accounting after notebook rebuild`)
+- `0f01bfc` (`Make public notebook granular and paper-consistent`)
 
 ## Public URLs checked
 
@@ -23,22 +24,25 @@ Public commits:
 
 ## HTTP and hash checks
 
-- Landing page HTTP: `200`, bytes `284074`, SHA-256 `1feae9906eb13f576ef4e6987d61fc0c065cec0597a9309d3f88f7ffe590f520`
-- Raw notebook HTTP: `200`, bytes `283808`, SHA-256 `0f89505b103934992b325e4510b588fb2c13afc077d2464a77681cd4bc3c8a5f`
+- Landing page HTTP: `200`, bytes `363746`, SHA-256 `eadf32d9fb0194065163350c8870fea2f122383fab13b988a04d06119f102953`
+- Raw notebook HTTP: `200`, bytes `363638`, SHA-256 `23e688351dab68a5c836c0cc2ac7ae8e59f5146eb2e864ec576369b258d60d6e`
 - Old audit-framed notebook HTTP: `404`
 - Current annotation accounting EPUB HTTP: `200`, bytes `24134`, SHA-256 `9ca0d4daf59263b53dc0846ff770669dcd99357f9a2ec4f65892fb0af5718b00`
-- Full package ZIP SHA-256: `06ef8d51bdb87d9d191fb44ec809054fe8d90a8ba82cea5592661e9542bd3f23`
+- Full package ZIP SHA-256: `1133dd11ae4aba1a6feb9338a6bf9e4c34502bda42ef7632812c7dc8abec563b`
+- GitHub Pages source: `main:/docs`, status `built`, latest Pages run `26397553225` completed successfully.
 
 ## Notebook QA
 
-- Total cells: `320`
-- Code cells: `150`
-- Markdown cells: `170`
-- Maximum nonblank code lines in a code cell: `20`
-- Rendered `Econometric sense.` explanations on public landing page: `150`
-- Rendered code cells on public landing page: `150`
+- Total cells: `589`
+- Code cells: `273`
+- Markdown cells: `316`
+- Maximum nonblank code lines in a code cell: `10`
+- Rendered `Econometric sense.` explanations on public landing page: `273`
+- Rendered code cells on public landing page: `273`
+- Paper-number consistency checks: `6/6 pass`
+- Maximum absolute paper-reference difference: `1.4210854715202004e-14`
 - Old notebook filename present in public landing page: `false`
 
 ## Strategic meaning
 
-This refresh does not change any accepted empirical number. It repairs the public-delivery failure identified by Pro and the operator: the public first screen is now the executed reader notebook itself, the old audit-framed notebook is gone from public notebook URLs, and each code step carries an explicit econometric explanation.
+This refresh does not change any accepted empirical number. It repairs the public-delivery failure identified by Pro and the operator, and the later operator finding that the cells were still too large: the public first screen is now the executed reader notebook itself, the old audit-framed notebook is gone from public notebook URLs, each code step is small, and the notebook visibly checks that central notebook numbers match the paper reference tables.
