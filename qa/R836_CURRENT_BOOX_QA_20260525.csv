@@ -1,8 +1,0 @@
-check,status,detail
-r6_summary_pass_10_10,PASS,artifacts/action_tasks/manuscript_imrad_20260427/mixed_window_2025_granular_notebook_20260524/pro_review/strict_2025_candidate_r6_20260525/harvest/HARVEST_SUMMARY_MIXED_WINDOW_2025_POST_POLISH_STRICT_R6.md
-current_accounting_epub_present,PASS,Annotation_Accounting_2025_Current_R836_20260525.epub
-current_article_boox_files_present,PASS,7
-boox_hash_copies_match,PASS,7
-rclone_current_listing_present,PASS,Annotation_Accounting_2025_Current_R836_20260525.epub;23558;2026-05-25 08:02:30 | Annotation_Accounting_2025_Current_R836_20260525.html;109953;2026-05-25 08:02:29 | Annotation_Accounting_2025_Current_R836_20260525.md;86462;2026-05-25 08:02:29 | BOOX_DELIVERY_2025_CURRENT_R836_20260525.md;2059;2026-05-25 08:02:50 | SHA256SUMS_CURRENT_R836_20260525.txt;765;2026-05-25 08:02:30 | Self_Defeating_Public_Investment_Cuts_2025_Current_R836_20260525.epub;493201;2026-05-25 05:39:20 | Self_Defeating_Public_Investment_Cuts_2025_Current_R836_20260525.html;373394;2026-05-25 05:39:38 | Self_Defeating_Public_Investment_Cuts_2025_Current_R836_20260525.pdf;573264;2026-05-25 05:39:38
-public_docs_current_accounting_present,PASS,docs current accounting
-public_docs_index_links_current_accounting,PASS,current accounting link

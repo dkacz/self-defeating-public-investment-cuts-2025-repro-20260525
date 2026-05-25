@@ -1,4 +1,0 @@
-check,status,detail
-public_notebook_rebuild_note_present,PASS,R840 note in markdown
-epub_present,PASS,EPUB exists
-html_present,PASS,HTML exists
