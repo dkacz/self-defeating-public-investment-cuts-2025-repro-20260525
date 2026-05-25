@@ -10,8 +10,8 @@ Rozliczenie widoczne dla czytelnika obejmuje 27 pozycji: 11 dotyczacych notebook
 
 ## Zgodnosc notebooka z paperem
 
-- notebook publiczny ma 589 komorek;
-- w tym 273 komorki kodu i 316 komorek opisowych;
+- notebook publiczny ma 601 komorek;
+- w tym 280 komorek kodu i 321 komorek opisowych;
 - najdluzsza komorka kodu ma 10 niepustych linii;
 - 6 z 6 porownan z tabelami paperu przechodzi;
 - najwieksza roznica liczbowa wobec tabel paperu wynosi 1,4210854715202004e-14, czyli poziom zaokraglenia maszynowego;
@@ -49,7 +49,7 @@ Notebook jest obecnym zapisem obliczen i zgadza sie z liczbami, tabelami, figura
 
 **Obecny fragment albo dowód do kontroli:**
 
-> Aktualny notebook ma być główną powierzchnią kontroli estymacji. Pokazuje źródła, braki danych, zmienne stanu, próbę, równania, macierze regresji, usuwanie efektów stałych, współczynniki, kowariancje, p-wartości, kontrasty dla profilu Polski, ścieżki odpowiedzi, ścieżki długu, tabele, wykresy i ślad liczb artykułu. Ma też kontrolę długości komórek, żeby obliczenia nie były ukryte w bardzo długich blokach kodu. W obecnym notebooku notebook pokazuje także, że średnia equal-weight dla odpowiedzi jest liczona z trzech polskich ścieżek, bez EU27 benchmarku.
+> Aktualny notebook ma być główną powierzchnią kontroli estymacji. Pokazuje źródła, braki danych, zmienne stanu, próbę, równania, macierze regresji, usuwanie efektów stałych, współczynniki, kowariancje, p-wartości, kontrasty dla profilu Polski, ścieżki odpowiedzi, ścieżki długu, tabele, wykresy i ślad liczb artykułu. Ma też kontrolę długości komórek, żeby obliczenia nie były ukryte w bardzo długich blokach kodu. Obecny notebook pokazuje także, że średnia equal-weight dla odpowiedzi jest liczona z trzech polskich ścieżek, bez EU27 benchmarku.
 
 **Dlaczego ta pozycja wymagala kontroli?**
 

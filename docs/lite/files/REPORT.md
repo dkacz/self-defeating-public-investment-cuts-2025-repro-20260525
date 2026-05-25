@@ -9,9 +9,9 @@ This package exposes the current 2025 article, the reader-facing executed notebo
 ## Notebook
 
 - path: `docs/notebooks/self_defeating_public_investment_cuts_2025_reproducibility.ipynb`
-- cells: 589
-- code cells: 273
-- markdown cells: 316
+- cells: 601
+- code cells: 280
+- markdown cells: 321
 - maximum nonblank code lines per code cell: 10
 - paper-number consistency: 6/6 pass
 - maximum absolute paper-reference difference: 1.4210854715202004e-14

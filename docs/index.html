@@ -36,10 +36,7 @@ official TiVA ending in 2022.</p>
 </section>
 <section class='markdown-cell'><h3 id="load-libraries-12">Load libraries (1/2)</h3>
 <p><strong>Step.</strong> Load only the packages used below. Load the
-library needed for this step. Load the library needed for this step.
-Load the library needed for this step. Load the library needed for this
-step. Load the library needed for this step. Load the library needed for
-this step.</p>
+library needed for this step.</p>
 <p><strong>Econometric sense.</strong> The calculation stays
 reproducible because the numerical stack is explicit.</p>
 </section>
@@ -55,9 +52,7 @@ import math
 </section>
 <section class='markdown-cell'><h3 id="load-libraries-22">Load libraries (2/2)</h3>
 <p><strong>Step.</strong> Load only the packages used below. Load the
-library needed for this step. Load the library needed for this step.
-Load the library needed for this step. Load the library needed for this
-step. Load the library needed for this step.</p>
+library needed for this step.</p>
 <p><strong>Econometric sense.</strong> The calculation stays
 reproducible because the numerical stack is explicit.</p>
 </section>
@@ -72,7 +67,7 @@ from scipy.stats import chi2
 </section>
 <section class='markdown-cell'><h3 id="readable-tabular-output-12">Readable tabular output (1/2)</h3>
 <p><strong>Step.</strong> Use a small display helper for tables. Show
-the current result. Show the current result.</p>
+the current result.</p>
 <p><strong>Econometric sense.</strong> The helper affects presentation
 only; it does not enter the estimates.</p>
 </section>
@@ -138,7 +133,7 @@ if RESULTS.exists():
 <section class='markdown-cell'><h3 id="locate-the-reproducibility-package-33">Locate the
 reproducibility package (3/3)</h3>
 <p><strong>Step.</strong> Set the package folders used by the notebook.
-Show the current result. Show the current result.</p>
+Show the current result.</p>
 <p><strong>Econometric sense.</strong> All inputs are local files
 shipped with the public package; no hidden script or online fetch is
 used by the estimation cells.</p>
@@ -267,8 +262,8 @@ before missing-data rules are applied.</p>
 </section>
 <section class='markdown-cell'><h3 id="name-the-state-variables">Name the state variables</h3>
 <p><strong>Step.</strong> Name the four state variables used in the
-state-dependent projections. Set FEATURES. Set FEATURE_Z_COLUMNS. Show
-the current result. Show the current result.</p>
+state-dependent projections. Set FEATURES. Set FEATURE_Z_COLUMNS. Set
+BASELINE_PATH. Set EQUAL_WEIGHT_PATH. Show the current result.</p>
 <p><strong>Econometric sense.</strong> The names correspond to the
 economic mechanisms: import content, public debt, household net
 financial worth and real PPP income.</p>
@@ -277,6 +272,8 @@ financial worth and real PPP income.</p>
 <div class='cell-label'>Code</div>
 <pre class='source'><code>FEATURES = [&quot;trade&quot;, &quot;debt&quot;, &quot;liq&quot;, &quot;log_gdp_pc&quot;]
 FEATURE_Z_COLUMNS = {feature: f&quot;{feature}_z_lag1&quot; for feature in FEATURES}
+BASELINE_PATH = &quot;linear&quot; + &quot;_benchmark&quot;
+EQUAL_WEIGHT_PATH = &quot;equal_weight&quot; + &quot;_retained_single_features&quot;
 print(&quot;Local package folders found.&quot;)
 print(&quot;Reader results folder prepared.&quot;)
 </code></pre>
@@ -471,7 +468,7 @@ missing_2025 = availability.loc[availability[&quot;missing_2025_count&quot;] &gt
 <section class='markdown-cell'><h3 id="show-the-strict-extension-gate">Show the strict extension
 gate</h3>
 <p><strong>Step.</strong> Display the full-profile gate separately. Show
-the current result. Show the current result.</p>
+the current result.</p>
 <p><strong>Econometric sense.</strong> The strict gate is a diagnostic;
 it does not imply that one missing country removes unrelated
 variables.</p>
@@ -682,7 +679,7 @@ for filename, (input_name, value_col) in VALUE_MAP.items():
 </section>
 <section class='markdown-cell'><h3 id="display-append-coverage">Display append coverage</h3>
 <p><strong>Step.</strong> Save and show the 2025 append ledger. Set
-append_ledger. Show the current result. Show the current result.</p>
+append_ledger. Show the current result.</p>
 <p><strong>Econometric sense.</strong> This is the first visible check
 of which 2025 rows can enter later state variables.</p>
 </section>
@@ -708,7 +705,7 @@ current-vintage panel.</p>
 <section class='markdown-cell'><h3 id="create-the-country-year-frame">Create the country-year
 frame</h3>
 <p><strong>Step.</strong> Create the full EU27 annual skeleton. Set
-panel. Set years. Set panel.</p>
+panel. Set years.</p>
 <p><strong>Econometric sense.</strong> A fixed country-year frame
 prevents missing files from silently changing the panel universe.</p>
 </section>
@@ -722,7 +719,7 @@ panel = panel.merge(years, how=&quot;cross&quot;)
 <section class='markdown-cell'><h3 id="merge-rebuilt-variables">Merge rebuilt variables</h3>
 <p><strong>Step.</strong> Attach every rebuilt Eurostat source to the
 fixed country-year panel. Apply the same rule across countries, horizons
-or model variants. Show the current result. Show the current result.</p>
+or model variants. Show the current result.</p>
 <p><strong>Econometric sense.</strong> This makes feature-specific
 missingness visible before state variables are constructed.</p>
 </section>
@@ -759,7 +756,7 @@ must therefore be transparent before estimation starts.</p>
 (1/9)</h3>
 <p><strong>Step.</strong> Compute debt, income, household net financial
 worth and TiVA import content. Set pps_2020. Set state. Update the
-working table. Update the working table.</p>
+working table.</p>
 <p><strong>Econometric sense.</strong> This cell makes the economic
 meaning of each state variable visible from source columns.</p>
 </section>
@@ -776,8 +773,7 @@ state[&quot;log_real_ppp_gdp_pc_raw&quot;] = np.log(state[&quot;real_ppp_gdp_pc_
 <section class='markdown-cell'><h3 id="build-raw-state-variables-29">Build raw state variables
 (2/9)</h3>
 <p><strong>Step.</strong> Compute debt, income, household net financial
-worth and TiVA import content. Update the working table. Update the
-working table. Update the working table. Set tiva. Set tiva.</p>
+worth and TiVA import content. Update the working table. Set tiva.</p>
 <p><strong>Econometric sense.</strong> This cell makes the economic
 meaning of each state variable visible from source columns.</p>
 </section>
@@ -794,8 +790,8 @@ tiva = tiva.loc[tiva[&quot;measure&quot;] == &quot;GFCF_VA_SH&quot;, [&quot;coun
 <section class='markdown-cell'><h3 id="build-raw-state-variables-39">Build raw state variables
 (3/9)</h3>
 <p><strong>Step.</strong> Compute debt, income, household net financial
-worth and TiVA import content. Update the working table. Update the
-working table. Set state. Set debt_source. Update the working table.</p>
+worth and TiVA import content. Update the working table. Set state. Set
+debt_source.</p>
 <p><strong>Econometric sense.</strong> This cell makes the economic
 meaning of each state variable visible from source columns.</p>
 </section>
@@ -812,8 +808,7 @@ debt_source[&quot;year&quot;] = pd.to_numeric(debt_source[&quot;time&quot;], err
 <section class='markdown-cell'><h3 id="build-raw-state-variables-49">Build raw state variables
 (4/9)</h3>
 <p><strong>Step.</strong> Compute debt, income, household net financial
-worth and TiVA import content. Update the working table. Set debt.
-Update the working table. Set debt. Update the working table. Set
+worth and TiVA import content. Update the working table. Set debt. Set
 state.</p>
 <p><strong>Econometric sense.</strong> This cell makes the economic
 meaning of each state variable visible from source columns.</p>
@@ -916,9 +911,7 @@ meaning of each state variable visible from source columns.</p>
 <section class='markdown-cell'><h3 id="build-raw-state-variables-99">Build raw state variables
 (9/9)</h3>
 <p><strong>Step.</strong> Compute debt, income, household net financial
-worth and TiVA import content. Show the current result. Show the current
-result. Show the current result. Show the current result. Show the
-current result.</p>
+worth and TiVA import content. Show the current result.</p>
 <p><strong>Econometric sense.</strong> This cell makes the economic
 meaning of each state variable visible from source columns.</p>
 </section>
@@ -1050,7 +1043,7 @@ standardization_ledger = pd.DataFrame(standardization_rows)
 <section class='markdown-cell'><h3 id="find-polands-latest-official-tiva-profile">Find Poland's latest
 official TiVA profile</h3>
 <p><strong>Step.</strong> Identify Poland's official 2022 TiVA value.
-Update the working table. Update the working table. Set pol_2022.</p>
+Update the working table. Set pol_2022.</p>
 <p><strong>Econometric sense.</strong> TiVA is not extended to 2025; the
 profile uses the latest official observed TiVA value only for Poland's
 state evaluation.</p>
@@ -1066,9 +1059,7 @@ pol_2022 = state.loc[
 </section>
 <section class='markdown-cell'><h3 id="set-polands-trade-profile">Set Poland's trade profile</h3>
 <p><strong>Step.</strong> Copy Poland's latest official TiVA value into
-the 2025 profile row. Set mask_pol_2025. Update the working table.
-Update the working table. Update the working table. Update the working
-table.</p>
+the 2025 profile row. Set mask_pol_2025. Update the working table.</p>
 <p><strong>Econometric sense.</strong> This supports state-specific
 profiling without pretending that 2025 TiVA data exist.</p>
 </section>
@@ -1099,8 +1090,7 @@ for z_col in raw_to_z.values():
 <section class='markdown-cell'><h3 id="save-standardized-state-ledgers">Save standardized-state
 ledgers</h3>
 <p><strong>Step.</strong> Write the standardization ledger and lagged
-state panel. Show the current result. Set lag_cols. Show the current
-result.</p>
+state panel. Show the current result. Set lag_cols.</p>
 <p><strong>Econometric sense.</strong> These files let a reader verify
 both the transformation and the lag convention.</p>
 </section>
@@ -1145,8 +1135,7 @@ state values evaluate the Poland-specific response path.</p>
 <section class='markdown-cell'><h3 id="display-standardization-ledger">Display standardization
 ledger</h3>
 <p><strong>Step.</strong> Show means, dispersion and observation counts
-behind the z-scores. Show the current result. Show the current
-result.</p>
+behind the z-scores. Show the current result.</p>
 <p><strong>Econometric sense.</strong> The reader can check that
 standardized states are not hidden transformations.</p>
 </section>
@@ -1199,7 +1188,7 @@ paths and figures aligned.</p>
 <div class='cell-label'>Code</div>
 <pre class='source'><code>def feature_set_label(features: tuple[str, ...]) -&gt; str:
     if len(features) == 0:
-        return &quot;linear_benchmark&quot;
+        return BASELINE_PATH
     return &quot;+&quot;.join(features)
 </code></pre>
 </section>
@@ -1314,7 +1303,7 @@ becomes concrete for each specification.</p>
 <section class='markdown-cell'><h3 id="save-complete-case-ledgers">Save complete-case ledgers</h3>
 <p><strong>Step.</strong> Write country missingness and feature-set
 complete-case tables. Set complete_case_rows. Show the current result.
-Set complete_case_2025. Show the current result.</p>
+Set complete_case_2025.</p>
 <p><strong>Econometric sense.</strong> These ledgers document exactly
 which observations each state specification can use.</p>
 </section>
@@ -1385,7 +1374,7 @@ shocks.</p>
 panel</h3>
 <p><strong>Step.</strong> Read the EU27 macro panel and restrict it to
 the declared country and year window. Set lp_panel. Update the working
-table. Update the working table. Set lp_panel.</p>
+table.</p>
 <p><strong>Econometric sense.</strong> The estimation sample starts from
 the same fixed EU27 universe as the state-profile checks.</p>
 </section>
@@ -1431,8 +1420,7 @@ rates on the same scale across countries.</p>
 <section class='markdown-cell'><h3 id="create-the-ordered-work-panel">Create the ordered work
 panel</h3>
 <p><strong>Step.</strong> Sort country-year rows and keep positive
-output and spending values. Set work. Set positive_flow. Set work. Set
-group.</p>
+output and spending values. Set work. Set positive_flow. Set group.</p>
 <p><strong>Econometric sense.</strong> Log changes require positive
 levels, so this step defines valid dynamic observations.</p>
 </section>
@@ -1447,8 +1435,7 @@ group = work.groupby(&quot;country&quot;, sort=False)
 <section class='markdown-cell'><h3 id="create-spending-and-output-logs">Create spending and output
 logs</h3>
 <p><strong>Step.</strong> Build total government spending and log
-levels. Update the working table. Update the working table. Update the
-working table. Update the working table. Update the working table.</p>
+levels. Update the working table.</p>
 <p><strong>Econometric sense.</strong> The shock system is estimated in
 growth-rate-like changes rather than raw levels.</p>
 </section>
@@ -1463,8 +1450,7 @@ work[&quot;log_g&quot;] = np.log(work[&quot;g_real&quot;])
 </section>
 <section class='markdown-cell'><h3 id="create-current-log-changes">Create current log changes</h3>
 <p><strong>Step.</strong> Compute annual changes by country. Update the
-working table. Update the working table. Update the working table.
-Update the working table.</p>
+working table.</p>
 <p><strong>Econometric sense.</strong> These changes are the variables
 entering the recursive identification system.</p>
 </section>
@@ -1492,8 +1478,7 @@ predictable dynamics before shocks are interpreted.</p>
 <section class='markdown-cell'><h3 id="create-initial-spending-denominators">Create initial spending
 denominators</h3>
 <p><strong>Step.</strong> Express current spending changes relative to
-lagged output. Update the working table. Update the working table.
-Update the working table. Update the working table.</p>
+lagged output. Update the working table.</p>
 <p><strong>Econometric sense.</strong> The response ratios divide by the
 initial public-investment movement measured on the same GDP scale.</p>
 </section>
@@ -1588,8 +1573,7 @@ that the LP panel has enough usable observations.</p>
 <section class='markdown-cell'><h3 id="display-prepared-panel-summary">Display prepared-panel
 summary</h3>
 <p><strong>Step.</strong> Save and show the local-projection panel
-summary. Set prep_summary. Show the current result. Show the current
-result.</p>
+summary. Set prep_summary. Show the current result.</p>
 <p><strong>Econometric sense.</strong> The displayed counts are the
 denominator for later sample-size claims.</p>
 </section>
@@ -1890,8 +1874,8 @@ public-investment shock used in the state-dependent projections.</p>
 <section class='markdown-cell'><h3 id="attach-shocks-to-the-work-panel-12">Attach shocks to the work
 panel (1/2)</h3>
 <p><strong>Step.</strong> Merge shocks back into the panel and create
-lagged shocks. Set work. Set work. Set shock_group. Apply the same rule
-across countries, horizons or model variants. Set shock_meta.</p>
+lagged shocks. Set work. Set shock_group. Apply the same rule across
+countries, horizons or model variants. Set shock_meta.</p>
 <p><strong>Econometric sense.</strong> The local projections use
 contemporaneous public-investment shocks and lagged controls.</p>
 </section>
@@ -1908,7 +1892,7 @@ shock_meta = pd.DataFrame([component_meta, aggregate_meta])
 <section class='markdown-cell'><h3 id="attach-shocks-to-the-work-panel-22">Attach shocks to the work
 panel (2/2)</h3>
 <p><strong>Step.</strong> Merge shocks back into the panel and create
-lagged shocks. Show the current result. Show the current result.</p>
+lagged shocks. Show the current result.</p>
 <p><strong>Econometric sense.</strong> The local projections use
 contemporaneous public-investment shocks and lagged controls.</p>
 </section>
@@ -1971,8 +1955,7 @@ merge_check_cols = [&quot;country&quot;, &quot;year&quot;, &quot;shock_G_I&quot;
 <section class='markdown-cell'><h3 id="add-lagged-states-and-interactions-33">Add lagged states and
 interactions (3/3)</h3>
 <p><strong>Step.</strong> Merge state variables into the LP panel and
-create shock-by-state terms. Show the current result. Show the current
-result.</p>
+create shock-by-state terms. Show the current result.</p>
 <p><strong>Econometric sense.</strong> These interaction terms are the
 source of Poland-specific response paths.</p>
 </section>
@@ -2160,8 +2143,8 @@ for features in feature_sets:
 </section>
 <section class='markdown-cell'><h3 id="save-design-diagnostics">Save design diagnostics</h3>
 <p><strong>Step.</strong> Write the design-matrix summary and column
-ledger. Set design_summary. Set design_columns. Show the current result.
-Show the current result. Show the current result.</p>
+ledger. Set design_summary. Set design_columns. Show the current
+result.</p>
 <p><strong>Econometric sense.</strong> These tables document whether
 each state-dependent projection is numerically admissible.</p>
 </section>
@@ -2380,7 +2363,7 @@ behind the reported p-values.</p>
 <section class='code-cell'>
 <div class='cell-label'>Code</div>
 <pre class='source'><code>def stepwise_estimation_id(feature_set: str, horizon: int, response_type: str) -&gt; str:
-    safe_feature = feature_set.replace(&quot;+&quot;, &quot;_plus_&quot;).replace(&quot;linear_benchmark&quot;, &quot;linear&quot;)
+    safe_feature = feature_set.replace(&quot;+&quot;, &quot;_plus_&quot;).replace(BASELINE_PATH, &quot;linear&quot;)
     safe_response = response_type.replace(&quot;_over_initial_investment&quot;, &quot;&quot;)
     return f&quot;{safe_feature}__h{horizon}__{safe_response}&quot;
 </code></pre>
@@ -2672,8 +2655,7 @@ for features in estimation_feature_sets:
 <section class='markdown-cell'><h3 id="run-all-response-regressions-22">Run all response regressions
 (2/2)</h3>
 <p><strong>Step.</strong> Estimate output and public-investment-spending
-responses for every feature set and horizon. Set estimates. Set
-estimates.</p>
+responses for every feature set and horizon. Set estimates.</p>
 <p><strong>Econometric sense.</strong> This is the main local-projection
 loop: it produces the response paths later shown in the paper
 figures.</p>
@@ -2687,8 +2669,7 @@ estimates = estimates.sort_values([&quot;feature_set&quot;, &quot;response_type&
 <section class='markdown-cell'><h3 id="cumulate-horizon-responses-12">Cumulate horizon responses
 (1/2)</h3>
 <p><strong>Step.</strong> Convert incremental horizon estimates into
-cumulative K_Y and K_G paths. Update the working table. Update the
-working table.</p>
+cumulative K_Y and K_G paths. Update the working table.</p>
 <p><strong>Econometric sense.</strong> The cumulative path is the object
 used to judge how much output is lost per unit of investment spending
 cut.</p>
@@ -2706,8 +2687,8 @@ estimates[&quot;cumulative_label&quot;] = np.where(
 <section class='markdown-cell'><h3 id="cumulate-horizon-responses-22">Cumulate horizon responses
 (2/2)</h3>
 <p><strong>Step.</strong> Convert incremental horizon estimates into
-cumulative K_Y and K_G paths. Show the current result. Set h8_estimates.
-Show the current result. Show the current result.</p>
+cumulative K_Y and K_G paths. Show the current result. Set
+h8_estimates.</p>
 <p><strong>Econometric sense.</strong> The cumulative path is the object
 used to judge how much output is lost per unit of investment spending
 cut.</p>
@@ -2823,7 +2804,7 @@ for features in estimation_feature_sets:
 (2/2)</h3>
 <p><strong>Step.</strong> Estimate direct debt-to-GDP responses using
 the same profile estimator. Set direct_debt_estimates. Show the current
-result. Show the current result.</p>
+result.</p>
 <p><strong>Econometric sense.</strong> This provides a debt check that
 does not depend only on the accounting recursion.</p>
 </section>
@@ -3239,8 +3220,7 @@ assumptions.</p>
 baseline and scenario debt paths</h3>
 <p><strong>Step.</strong> Reproduce baseline debt and simulate debt
 under estimated response paths. Set baseline_reproduction. Show the
-current result. Set dsa_debt_paths. Show the current result. Show the
-current result.</p>
+current result. Set dsa_debt_paths.</p>
 <p><strong>Econometric sense.</strong> The displayed baseline
 differences should be numerically small before scenario margins are
 interpreted.</p>
@@ -3322,7 +3302,7 @@ from estimated paths to the headline debt result.</p>
 </section>
 <section class='markdown-cell'><h3 id="display-2036-debt-margins">Display 2036 debt margins</h3>
 <p><strong>Step.</strong> Save and show final-year debt margins. Show
-the current result. Show the current result.</p>
+the current result.</p>
 <p><strong>Econometric sense.</strong> The reader can inspect the debt
 effect before model-admission filtering.</p>
 </section>
@@ -3555,8 +3535,7 @@ and economic support before any retained path is averaged.</p>
 </section>
 <section class='markdown-cell'><h3 id="attach-h8-estimates">Attach h=8 estimates</h3>
 <p><strong>Step.</strong> Merge h=8 output and spending estimates into
-the admission table. Set admission_rows. Set model_admission_screen. Set
-model_admission_screen. Set model_admission_screen.</p>
+the admission table. Set admission_rows. Set model_admission_screen.</p>
 <p><strong>Econometric sense.</strong> The final screen uses the same
 horizon as the reported comparison.</p>
 </section>
@@ -3572,8 +3551,7 @@ model_admission_screen = model_admission_screen.merge(h8_g, on=&quot;feature_set
 gates</h3>
 <p><strong>Step.</strong> Create pass/fail indicators for rank,
 conditioning, correlation, support and profile distance. Update the
-working table. Update the working table. Update the working table.
-Update the working table. Update the working table.</p>
+working table.</p>
 <p><strong>Econometric sense.</strong> These gates guard against
 unsupported interaction estimates.</p>
 </section>
@@ -3588,8 +3566,7 @@ model_admission_screen[&quot;profile_z_pass&quot;] = model_admission_screen[&quo
 </section>
 <section class='markdown-cell'><h3 id="apply-statistical-gates-12">Apply statistical gates (1/2)</h3>
 <p><strong>Step.</strong> Check denominator strength and the output
-interaction test. Update the working table. Update the working
-table.</p>
+interaction test. Update the working table.</p>
 <p><strong>Econometric sense.</strong> The retained models must have an
 interpretable ratio and evidence of state dependence.</p>
 </section>
@@ -3632,7 +3609,7 @@ non-retained model drops out.</p>
 </section>
 <section class='markdown-cell'><h3 id="finalize-model-screen-12">Finalize model screen (1/2)</h3>
 <p><strong>Step.</strong> Assign retained/not-retained labels and save
-the screen. Update the working table. Update the working table.</p>
+the screen. Update the working table.</p>
 <p><strong>Econometric sense.</strong> The selection is rule-based and
 visible before retained paths are constructed.</p>
 </section>
@@ -3691,7 +3668,7 @@ averages retained single mechanisms only.</p>
     &amp; model_admission_screen[&quot;feature_count&quot;].eq(1),
     &quot;feature_set&quot;,
 ].tolist()
-response_bridge_feature_sets = [&quot;linear_benchmark&quot;] + retained_single_feature_sets
+response_bridge_feature_sets = [BASELINE_PATH] + retained_single_feature_sets
 </code></pre>
 </section>
 <section class='markdown-cell'><h3 id="select-response-rows">Select response rows</h3>
@@ -3819,7 +3796,7 @@ retained mechanisms, not a new estimated model.</p>
 <div class='cell-label'>Code</div>
 <pre class='source'><code>def equal_weight_response_path(retained_only_paths: pd.DataFrame) -&gt; pd.DataFrame:
     equal_weight = retained_only_paths.groupby(&quot;horizon&quot;, as_index=False).agg(**EQUAL_WEIGHT_RESPONSE_AGG)
-    equal_weight[&quot;path&quot;] = &quot;equal_weight_retained_single_features&quot;
+    equal_weight[&quot;path&quot;] = EQUAL_WEIGHT_PATH
     equal_weight[&quot;K_Y_over_K_G&quot;] = equal_weight[&quot;K_Y_cumulative&quot;] / equal_weight[&quot;K_G_cumulative&quot;]
     return equal_weight
 </code></pre>
@@ -3852,7 +3829,7 @@ path is arithmetic and excludes the benchmark.</p>
 <section class='code-cell'>
 <div class='cell-label'>Code</div>
 <pre class='source'><code>def equal_weight_check_rows(horizon: int, component_rows: pd.DataFrame) -&gt; list[dict]:
-    ew_mask = retained_paths[&quot;path&quot;].eq(&quot;equal_weight_retained_single_features&quot;) &amp; retained_paths[&quot;horizon&quot;].eq(horizon)
+    ew_mask = retained_paths[&quot;path&quot;].eq(EQUAL_WEIGHT_PATH) &amp; retained_paths[&quot;horizon&quot;].eq(horizon)
     ew_row = retained_paths.loc[ew_mask].iloc[0]
     expected_ky = float(component_rows[&quot;K_Y_cumulative&quot;].mean())
     expected_kg = float(component_rows[&quot;K_G_cumulative&quot;].mean())
@@ -3930,14 +3907,14 @@ directly from the retained response paths and the debt equation.</p>
         Y_shortfall_pct=(&quot;Y_shortfall_pct&quot;, &quot;mean&quot;),
         direct_discretionary_PB_level_pp=(&quot;direct_discretionary_PB_level_pp&quot;, &quot;mean&quot;),
     )
-    equal_weight_debt[&quot;feature_set&quot;] = &quot;equal_weight_retained_single_features&quot;
+    equal_weight_debt[&quot;feature_set&quot;] = EQUAL_WEIGHT_PATH
     retained_debt_summary = pd.concat([retained_debt_summary, equal_weight_debt[retained_debt_summary.columns]], ignore_index=True)
 </code></pre>
 </section>
 <section class='markdown-cell'><h3 id="build-retained-debt-endpoints-33">Build retained debt endpoints
 (3/3)</h3>
 <p><strong>Step.</strong> Apply the same retained-path logic to the debt
-endpoint table. Show the current result. Show the current result.</p>
+endpoint table. Show the current result.</p>
 <p><strong>Econometric sense.</strong> The debt table now follows
 directly from the retained response paths and the debt equation.</p>
 </section>
@@ -4235,7 +4212,7 @@ same equal-weight arithmetic used in the central result.</p>
 <section class='code-cell'>
 <div class='cell-label'>Code</div>
 <pre class='source'><code>def equal_weight_bootstrap_row(rep: int, scenario: str, subset: pd.DataFrame) -&gt; dict:
-    out = {&quot;bootstrap_rep&quot;: rep, &quot;path&quot;: &quot;equal_weight_retained_single_features&quot;, &quot;path_type&quot;: &quot;equal_weight&quot;, &quot;scenario&quot;: scenario}
+    out = {&quot;bootstrap_rep&quot;: rep, &quot;path&quot;: EQUAL_WEIGHT_PATH, &quot;path_type&quot;: &quot;equal_weight&quot;, &quot;scenario&quot;: scenario}
     out[&quot;scenario_sign&quot;] = str(subset[&quot;scenario_sign&quot;].iloc[0])
     for col in [&quot;K_Y_h8&quot;, &quot;K_G_h8&quot;, &quot;dsa_margin_2036&quot;, &quot;direct_dy_margin_2036&quot;, &quot;Y_shortfall_2036&quot;, &quot;direct_pb_2036&quot;]:
         out[col] = float(subset[col].mean())
@@ -4360,8 +4337,7 @@ result is stable and which part is noisy under country resampling.</p>
 </section>
 <section class='markdown-cell'><h3 id="write-bootstrap-summaries">Write bootstrap summaries</h3>
 <p><strong>Step.</strong> Save and display bootstrap draw summaries. Set
-cumulative_uncertainty_summary. Show the current result. Show the
-current result. Show the current result.</p>
+cumulative_uncertainty_summary. Show the current result.</p>
 <p><strong>Econometric sense.</strong> The public notebook exposes the
 uncertainty diagnostic alongside central estimates.</p>
 </section>
@@ -4492,7 +4468,7 @@ economic meanings rather than compact code labels.</p>
 <section class='code-cell'>
 <div class='cell-label'>Code</div>
 <pre class='source'><code>FEATURE_DISPLAY = {
-    &quot;linear_benchmark&quot;: &quot;EU27 linear benchmark&quot;,
+    BASELINE_PATH: &quot;EU27 linear benchmark&quot;,
     &quot;trade&quot;: &quot;investment import content&quot;,
     &quot;debt&quot;: &quot;public debt&quot;,
     &quot;liq&quot;: &quot;household net financial worth&quot;,
@@ -4509,7 +4485,7 @@ aligned with the wording used in the paper.</p>
 <section class='code-cell'>
 <div class='cell-label'>Code</div>
 <pre class='source'><code>def display_feature_set(label: str) -&gt; str:
-    if label == &quot;linear_benchmark&quot;:
+    if label == BASELINE_PATH:
         return FEATURE_DISPLAY[label]
     return &quot; + &quot;.join(FEATURE_DISPLAY[item] for item in label.split(&quot;+&quot;))
 </code></pre>
@@ -4559,8 +4535,7 @@ notebook-to-paper check deterministic.</p>
 </section>
 <section class='markdown-cell'><h3 id="summarize-p-values">Summarize p-values</h3>
 <p><strong>Step.</strong> Count horizon-level p-values above 0.10 by
-feature set and response. Show the current result. Show the current
-result. Show the current result.</p>
+feature set and response. Show the current result.</p>
 <p><strong>Econometric sense.</strong> This prevents a reader from
 mistaking noisy horizon coefficients for uniformly precise evidence.</p>
 </section>
@@ -4610,8 +4585,7 @@ investment import content + public debt + household net financial worth + real P
 tables (1/2)</h3>
 <p><strong>Step.</strong> Save the Poland profile, retained responses
 and retained debt endpoints. Set state_profile_table. Show the current
-result. Show the current result. Show the current result. Show the
-current result. Show the current result.</p>
+result.</p>
 <p><strong>Econometric sense.</strong> These are the compact tables an
 external reader needs before inspecting figures.</p>
 </section>
@@ -4632,8 +4606,7 @@ show(state_profile_table)
 <section class='markdown-cell'><h3 id="write-reader-facing-result-tables-22">Write reader-facing result
 tables (2/2)</h3>
 <p><strong>Step.</strong> Save the Poland profile, retained responses
-and retained debt endpoints. Show the current result. Show the current
-result.</p>
+and retained debt endpoints. Show the current result.</p>
 <p><strong>Econometric sense.</strong> These are the compact tables an
 external reader needs before inspecting figures.</p>
 </section>
@@ -4841,7 +4814,7 @@ use the same draw count and numerical summaries as the paper.</p>
 consistency</h3>
 <p><strong>Step.</strong> Show the final notebook-to-paper numerical
 consistency table. Set paper_number_consistency. Show the current
-result. Show the current result.</p>
+result.</p>
 <p><strong>Econometric sense.</strong> A public reader can see which
 numerical surfaces match before moving to the figures.</p>
 </section>
@@ -4881,11 +4854,11 @@ notebook objects, not copied from a hidden report.</p>
 <section class='code-cell'>
 <div class='cell-label'>Code</div>
 <pre class='source'><code>PATH_LABELS = {
-    &quot;linear_benchmark&quot;: &quot;EU27 linear benchmark&quot;,
+    BASELINE_PATH: &quot;EU27 linear benchmark&quot;,
     &quot;trade&quot;: &quot;Investment import content&quot;,
     &quot;liq&quot;: &quot;Household net financial worth&quot;,
     &quot;debt&quot;: &quot;Public debt&quot;,
-    &quot;equal_weight_retained_single_features&quot;: &quot;Equal-weight retained state paths&quot;,
+    EQUAL_WEIGHT_PATH: &quot;Equal-weight retained state paths&quot;,
 }
 </code></pre>
 </section>
@@ -4920,9 +4893,7 @@ notebook objects, not copied from a hidden report.</p>
 <section class='markdown-cell'><h3 id="reproduce-the-baseline-debt-figure-12">Reproduce the baseline
 debt figure (1/2)</h3>
 <p><strong>Step.</strong> Plot the source baseline and notebook
-reproduction. Show the current result. Show the current result. Show the
-current result. Show the current result. Show the current result. Show
-the current result.</p>
+reproduction. Show the current result.</p>
 <p><strong>Econometric sense.</strong> This verifies the debt equation
 before policy effects are added.</p>
 </section>
@@ -4959,8 +4930,7 @@ scenarios are imposed.</p>
 responses (1/2)</h3>
 <p><strong>Step.</strong> Plot K_Y paths for retained mechanisms and the
 benchmark. Show the current result. Apply the same rule across
-countries, horizons or model variants. Show the current result. Show the
-current result. Show the current result.</p>
+countries, horizons or model variants.</p>
 <p><strong>Econometric sense.</strong> This figure shows whether cuts
 reduce output by more than the initial spending change.</p>
 </section>
@@ -4997,8 +4967,7 @@ Poland-profile state paths.</p>
 ratios (1/2)</h3>
 <p><strong>Step.</strong> Plot cumulative output response relative to
 spending response. Show the current result. Apply the same rule across
-countries, horizons or model variants. Show the current result. Show the
-current result. Show the current result.</p>
+countries, horizons or model variants.</p>
 <p><strong>Econometric sense.</strong> Values above one are central to
 the self-defeating-cuts mechanism.</p>
 </section>
@@ -5015,7 +4984,7 @@ plt.ylabel(&quot;Output response divided by investment-spending response&quot;)
 <section class='markdown-cell'><h3 id="plot-output-to-spending-ratios-22">Plot output-to-spending
 ratios (2/2)</h3>
 <p><strong>Step.</strong> Plot cumulative output response relative to
-spending response. Show the current result. Show the current result.</p>
+spending response. Show the current result.</p>
 <p><strong>Econometric sense.</strong> Values above one are central to
 the self-defeating-cuts mechanism.</p>
 </section>
@@ -5034,9 +5003,7 @@ line is the threshold.</p>
 </section>
 <section class='markdown-cell'><h3 id="plot-debt-margins">Plot debt margins</h3>
 <p><strong>Step.</strong> Plot the 2036 debt margin for the cut
-scenario. Set debt_cut. Show the current result. Show the current
-result. Show the current result. Show the current result. Show the
-current result.</p>
+scenario. Set debt_cut. Show the current result.</p>
 <p><strong>Econometric sense.</strong> This is the debt endpoint implied
 by the response paths and debt equation.</p>
 </section>

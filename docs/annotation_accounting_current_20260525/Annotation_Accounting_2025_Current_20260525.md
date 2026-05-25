@@ -10,8 +10,8 @@ Rozliczenie widoczne dla czytelnika obejmuje 27 pozycji: 11 dotyczacych notebook
 
 ## Zgodnosc notebooka z paperem
 
-- notebook publiczny ma 589 komorek;
-- w tym 273 komorki kodu i 316 komorek opisowych;
+- notebook publiczny ma 601 komorek;
+- w tym 280 komorek kodu i 321 komorek opisowych;
 - najdluzsza komorka kodu ma 10 niepustych linii;
 - 6 z 6 porownan z tabelami paperu przechodzi;
 - najwieksza roznica liczbowa wobec tabel paperu wynosi 1,4210854715202004e-14, czyli poziom zaokraglenia maszynowego;

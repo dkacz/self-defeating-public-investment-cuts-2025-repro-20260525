@@ -6,8 +6,8 @@ The public notebook is the main checking route. It walks through data coverage, 
 
 Current notebook facts:
 
-- 589 cells;
-- 273 code cells;
+- 601 cells;
+- 280 code cells;
 - maximum code-cell length: 10 nonblank lines;
 - 6/6 paper-number consistency checks pass;
 - maximum paper-reference difference: 1.4210854715202004e-14.
