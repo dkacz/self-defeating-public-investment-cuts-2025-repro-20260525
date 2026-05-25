@@ -1,0 +1,6 @@
+check,status,detail
+reader_notebook_present,PASS,self_defeating_public_investment_cuts_2025_reproducibility.ipynb
+old_public_audit_notebook_absent,PASS,old docs notebook removed
+root_is_rendered_notebook,PASS,index.html contains rendered notebook cells
+max_code_cell_lines_le_20,PASS,max code cell lines <=20
+no_visible_internal_terms,PASS,reader notebook and root page scan

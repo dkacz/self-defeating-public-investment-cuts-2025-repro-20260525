@@ -1,16 +1,31 @@
 # Public 2025 current notebook release
 
 Date: 2026-05-25T05:48:24Z
+Updated locally: 2026-05-25 after public-notebook remediation
 
-Status: `PASS`.
+Status: `LOCAL_READER_NOTEBOOK_REBUILT_PENDING_PUBLIC_REFRESH`.
 
-This package exposes the current accepted 2025 notebook and article layer after strict Pro R6. It does not change the accepted numbers; it publishes the already accepted calculation record.
+This package originally exposed the current accepted 2025 notebook and article layer after strict Pro R6. After the later Pro remediation verdict and operator review, the public notebook layer has been rebuilt locally as a reader-facing executed notebook. The accepted numbers do not change, but the public server, full public package ZIP, Boox/current annotation accounting and final public-delivery wiki state still need to be refreshed before this can be treated as closed.
+
+## 2026-05-25 reader-notebook rebuild
+
+- New local notebook: `docs/notebooks/self_defeating_public_investment_cuts_2025_reproducibility.ipynb`
+- New local root page: `docs/index.html`
+- Old public audit-framed notebook removed locally from `docs/notebooks/`
+- Notebook cells: `320`
+- Code cells: `150`
+- Markdown cells: `170`
+- Maximum nonblank code lines per code cell: `20`
+- Code cells with adjacent explicit `Econometric sense.` explanations: `150/150`
+- Execution errors: `0`
+- Visible internal round labels / `audit` / `QA` hits in the notebook and root page: `0`
+- Full local rebuild report: `artifacts/action_tasks/manuscript_imrad_20260427/public_notebook_remediation_pro_20260525/LOCAL_READER_NOTEBOOK_REBUILD_REPORT_20260525.md`
 
 ## Public URLs
 
 - Landing page: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/`
-- Notebook: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/lite/lab/index.html?path=notebooks/self_defeating_public_investment_cuts_2025_granular_audit.ipynb`
-- Raw notebook: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/notebooks/self_defeating_public_investment_cuts_2025_granular_audit.ipynb`
+- Notebook: rendered directly at the landing page above.
+- Raw notebook: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/notebooks/self_defeating_public_investment_cuts_2025_reproducibility.ipynb`
 - Current annotation-accounting EPUB: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/annotation_accounting_current_r836_20260525/Annotation_Accounting_2025_Current_R836_20260525.epub`
 
 ## Key hashes

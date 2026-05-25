@@ -1,0 +1,2 @@
+country,year,trade_raw,trade_z,debt_raw,debt_z,liq_raw,liq_z,log_real_ppp_gdp_pc_raw,log_gdp_pc_z,trade_profile_source_year,trade_profile_is_official_profile_copy
+POL,2025,0.41308,-0.16113002632933232,59.7,-0.08146573873820974,-0.7934709879175242,0.5755551475575922,10.264687098880952,0.07401637081113775,2022.0,True

@@ -1,8 +1,10 @@
 # Repro status
 
-Current status: `PASS`.
+Current status: `LOCAL_READER_NOTEBOOK_REBUILT_PENDING_PUBLIC_REFRESH`.
 
 The package includes the accepted 2025 granular notebook, its copied source data, current result ledgers, article source, article renders, Boox delivery evidence, annotation-accounting evidence and Pro R6 harvest summary.
+
+Update 2026-05-25: after the public-notebook remediation verdict and operator review, the reader-facing notebook has been rebuilt locally as `docs/notebooks/self_defeating_public_investment_cuts_2025_reproducibility.ipynb` and rendered to `docs/index.html`. Local execution passes with `320` cells, `150` code cells, maximum `20` nonblank code lines per code cell, `150/150` adjacent `Econometric sense.` explanations and no execution errors. The public server, public ZIP, Boox/current annotation accounting and wiki state still need refresh before delivery closure.
 
 Notebook execution QA is recorded in `qa/public_2025_notebook_execution_cells.csv`.
 
