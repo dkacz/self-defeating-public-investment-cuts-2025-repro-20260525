@@ -10,7 +10,7 @@
       "mimetype": "image/png",
       "name": "figure_debt_margins_2036.png",
       "path": "figures/figure_debt_margins_2036.png",
-      "size": 73208,
+      "size": 73060,
       "type": "file",
       "writable": true
     },
@@ -24,7 +24,7 @@
       "mimetype": "image/png",
       "name": "figure_intro_dsa_baseline_path.png",
       "path": "figures/figure_intro_dsa_baseline_path.png",
-      "size": 59423,
+      "size": 59449,
       "type": "file",
       "writable": true
     },
@@ -38,7 +38,7 @@
       "mimetype": "image/png",
       "name": "figure_ky_paths.png",
       "path": "figures/figure_ky_paths.png",
-      "size": 155335,
+      "size": 155768,
       "type": "file",
       "writable": true
     },
@@ -52,7 +52,7 @@
       "mimetype": "image/png",
       "name": "figure_output_spending_ratio_paths.png",
       "path": "figures/figure_output_spending_ratio_paths.png",
-      "size": 118456,
+      "size": 118360,
       "type": "file",
       "writable": true
     }
