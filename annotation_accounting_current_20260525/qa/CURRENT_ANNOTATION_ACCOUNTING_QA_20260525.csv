@@ -1,0 +1,8 @@
+check,status,detail
+updated_notebook_cell_count_589,PASS,589 cells
+updated_code_cell_count_273,PASS,273 code cells
+updated_max_code_lines_10,PASS,max 10 nonblank lines
+paper_number_consistency_6_of_6,PASS,paper reference checks
+no_old_cell_counts,PASS,old metrics absent
+no_internal_round_labels_readable_md,PASS,readable markdown scan
+epub_present,PASS,24302

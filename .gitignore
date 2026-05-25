@@ -3,9 +3,15 @@
 !README.md
 !REPORT.md
 !REPRO_STATUS.md
+!annotation_accounting_current_20260525/
+!annotation_accounting_current_20260525/**
 !code/
 !code/**
 !delivery/
 !delivery/**
+!docs/
+docs/*
+!docs/annotation_accounting_current_20260525/
+!docs/annotation_accounting_current_20260525/**
 !qa/
 !qa/**
