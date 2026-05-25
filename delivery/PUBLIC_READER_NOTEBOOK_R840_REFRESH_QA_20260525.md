@@ -28,7 +28,7 @@ Public commits:
 - Raw notebook HTTP: `200`, bytes `363638`, SHA-256 `23e688351dab68a5c836c0cc2ac7ae8e59f5146eb2e864ec576369b258d60d6e`
 - Old audit-framed notebook HTTP: `404`
 - Current annotation accounting EPUB HTTP: `200`, bytes `24134`, SHA-256 `9ca0d4daf59263b53dc0846ff770669dcd99357f9a2ec4f65892fb0af5718b00`
-- Full package ZIP SHA-256: `1133dd11ae4aba1a6feb9338a6bf9e4c34502bda42ef7632812c7dc8abec563b`
+- Full package ZIP SHA-256: stored only in `docs/downloads/full_public_2025_repro_package.zip.sha256` to avoid self-referential archive hashes.
 - GitHub Pages source: `main:/docs`, status `built`, latest Pages run `26397553225` completed successfully.
 
 ## Notebook QA

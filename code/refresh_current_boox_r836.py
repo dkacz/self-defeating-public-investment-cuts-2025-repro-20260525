@@ -343,18 +343,9 @@ def write_public_manifest_and_zip() -> tuple[Path, str]:
         if old.exists():
             old.unlink()
 
-    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
-        for path in iter_files(PUBLIC_DIR):
-            if path == zip_path or path == sha_path:
-                continue
-            rel = path.relative_to(PUBLIC_DIR)
-            zf.write(path, rel.as_posix())
-    zip_sha = sha256(zip_path)
-    sha_path.write_text(f"{zip_sha}  {zip_path.name}\n", encoding="utf-8")
-
     rows = []
     for path in iter_files(docs):
-        if path == manifest:
+        if path in {manifest, zip_path, sha_path}:
             continue
         rel = path.relative_to(PUBLIC_DIR)
         rows.append({"path": rel.as_posix(), "bytes": path.stat().st_size, "sha256": sha256(path)})
@@ -363,6 +354,15 @@ def write_public_manifest_and_zip() -> tuple[Path, str]:
         writer.writeheader()
         writer.writerows(rows)
     shutil.copy2(manifest, PUBLIC_DIR / "qa/public_2025_release_manifest.csv")
+
+    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+        for path in iter_files(PUBLIC_DIR):
+            if path == zip_path or path == sha_path:
+                continue
+            rel = path.relative_to(PUBLIC_DIR)
+            zf.write(path, rel.as_posix())
+    zip_sha = sha256(zip_path)
+    sha_path.write_text(f"{zip_sha}  docs/downloads/{zip_path.name}\n", encoding="utf-8")
     return zip_path, zip_sha
 
 
