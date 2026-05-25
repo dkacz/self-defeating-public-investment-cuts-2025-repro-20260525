@@ -3,9 +3,9 @@
 Date: 2026-05-25T05:48:24Z
 Updated locally: 2026-05-25 after public-notebook remediation
 
-Status: `LOCAL_READER_NOTEBOOK_REBUILT_PENDING_PUBLIC_REFRESH`.
+Status: `PUBLIC_READER_NOTEBOOK_REFRESH_PASS_PENDING_BOOX_AND_FINAL_REVIEW`.
 
-This package originally exposed the current accepted 2025 notebook and article layer after strict Pro R6. After the later Pro remediation verdict and operator review, the public notebook layer has been rebuilt locally as a reader-facing executed notebook. The accepted numbers do not change, but the public server, full public package ZIP, Boox/current annotation accounting and final public-delivery wiki state still need to be refreshed before this can be treated as closed.
+This package originally exposed the current accepted 2025 notebook and article layer after strict Pro R6. After the later Pro remediation verdict and operator review, the public notebook layer has been rebuilt as a reader-facing executed notebook and refreshed on GitHub Pages. The accepted numbers do not change. Boox/current annotation accounting, wiki state and final public-delivery review still need to be refreshed before the broader delivery goal can be treated as closed.
 
 ## 2026-05-25 reader-notebook rebuild
 
@@ -20,6 +20,11 @@ This package originally exposed the current accepted 2025 notebook and article l
 - Execution errors: `0`
 - Visible internal round labels / `audit` / `QA` hits in the notebook and root page: `0`
 - Full local rebuild report: `artifacts/action_tasks/manuscript_imrad_20260427/public_notebook_remediation_pro_20260525/LOCAL_READER_NOTEBOOK_REBUILD_REPORT_20260525.md`
+- Public repository commit: `469de94`
+- Public landing page HTTP: `200`, bytes `284074`, SHA-256 `1feae9906eb13f576ef4e6987d61fc0c065cec0597a9309d3f88f7ffe590f520`
+- Public raw notebook HTTP: `200`, bytes `283808`, SHA-256 `0f89505b103934992b325e4510b588fb2c13afc077d2464a77681cd4bc3c8a5f`
+- Old audit-framed public notebook URL: `404`
+- Full public package ZIP SHA-256: `395920292bb1576844e45d3a89a11fca4e5b21f3b714282817f0670472a99fd4`
 
 ## Public URLs
 
