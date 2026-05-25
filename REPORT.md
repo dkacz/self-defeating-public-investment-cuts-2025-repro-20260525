@@ -20,11 +20,11 @@ This package originally exposed the current accepted 2025 notebook and article l
 - Execution errors: `0`
 - Visible internal round labels / `audit` / `QA` hits in the notebook and root page: `0`
 - Full local rebuild report: `artifacts/action_tasks/manuscript_imrad_20260427/public_notebook_remediation_pro_20260525/LOCAL_READER_NOTEBOOK_REBUILD_REPORT_20260525.md`
-- Public repository commit: `469de94`
+- Public repository was refreshed on `main` after the reader-notebook rebuild.
 - Public landing page HTTP: `200`, bytes `284074`, SHA-256 `1feae9906eb13f576ef4e6987d61fc0c065cec0597a9309d3f88f7ffe590f520`
 - Public raw notebook HTTP: `200`, bytes `283808`, SHA-256 `0f89505b103934992b325e4510b588fb2c13afc077d2464a77681cd4bc3c8a5f`
 - Old audit-framed public notebook URL: `404`
-- Full public package ZIP SHA-256: `395920292bb1576844e45d3a89a11fca4e5b21f3b714282817f0670472a99fd4`
+- Full public package ZIP checksum is published in `docs/downloads/full_public_2025_repro_package.zip.sha256`.
 
 ## Public URLs
 
