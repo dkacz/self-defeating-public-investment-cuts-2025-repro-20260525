@@ -1,0 +1,16 @@
+feature_set,features,z_columns,lag_columns
+trade,trade,trade_z,trade_z_lag1
+debt,debt,debt_z,debt_z_lag1
+liq,liq,liq_z,liq_z_lag1
+log_gdp_pc,log_gdp_pc,log_gdp_pc_z,log_gdp_pc_z_lag1
+trade+debt,trade|debt,trade_z|debt_z,trade_z_lag1|debt_z_lag1
+trade+liq,trade|liq,trade_z|liq_z,trade_z_lag1|liq_z_lag1
+trade+log_gdp_pc,trade|log_gdp_pc,trade_z|log_gdp_pc_z,trade_z_lag1|log_gdp_pc_z_lag1
+debt+liq,debt|liq,debt_z|liq_z,debt_z_lag1|liq_z_lag1
+debt+log_gdp_pc,debt|log_gdp_pc,debt_z|log_gdp_pc_z,debt_z_lag1|log_gdp_pc_z_lag1
+liq+log_gdp_pc,liq|log_gdp_pc,liq_z|log_gdp_pc_z,liq_z_lag1|log_gdp_pc_z_lag1
+trade+debt+liq,trade|debt|liq,trade_z|debt_z|liq_z,trade_z_lag1|debt_z_lag1|liq_z_lag1
+trade+debt+log_gdp_pc,trade|debt|log_gdp_pc,trade_z|debt_z|log_gdp_pc_z,trade_z_lag1|debt_z_lag1|log_gdp_pc_z_lag1
+trade+liq+log_gdp_pc,trade|liq|log_gdp_pc,trade_z|liq_z|log_gdp_pc_z,trade_z_lag1|liq_z_lag1|log_gdp_pc_z_lag1
+debt+liq+log_gdp_pc,debt|liq|log_gdp_pc,debt_z|liq_z|log_gdp_pc_z,debt_z_lag1|liq_z_lag1|log_gdp_pc_z_lag1
+trade+debt+liq+log_gdp_pc,trade|debt|liq|log_gdp_pc,trade_z|debt_z|liq_z|log_gdp_pc_z,trade_z_lag1|debt_z_lag1|liq_z_lag1|log_gdp_pc_z_lag1

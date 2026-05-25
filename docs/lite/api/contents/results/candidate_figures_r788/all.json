@@ -1,0 +1,71 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-25T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-25T00:00:00Z",
+      "mimetype": "image/png",
+      "name": "figure_debt_margins_2036_r788.png",
+      "path": "results/candidate_figures_r788/figure_debt_margins_2036_r788.png",
+      "size": 93620,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-25T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-25T00:00:00Z",
+      "mimetype": "image/png",
+      "name": "figure_intro_dsa_baseline_path_r788.png",
+      "path": "results/candidate_figures_r788/figure_intro_dsa_baseline_path_r788.png",
+      "size": 50217,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-25T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-25T00:00:00Z",
+      "mimetype": "image/png",
+      "name": "figure_ky_paths_r788.png",
+      "path": "results/candidate_figures_r788/figure_ky_paths_r788.png",
+      "size": 119625,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-25T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-25T00:00:00Z",
+      "mimetype": "image/png",
+      "name": "figure_output_spending_ratio_paths_r788.png",
+      "path": "results/candidate_figures_r788/figure_output_spending_ratio_paths_r788.png",
+      "size": 86486,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-25T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-25T00:00:00Z",
+  "mimetype": null,
+  "name": "candidate_figures_r788",
+  "path": "results/candidate_figures_r788",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

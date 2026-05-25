@@ -1,0 +1,5 @@
+state_variable,raw_column,z_column,sample_start,sample_end,nonmissing_observations,standardization_mean,standardization_sd,poland_2025_raw,poland_2025_z
+investment_import_content,trade_raw,trade_z,2004,2025,513,0.429329298245614,0.10084587345875679,0.41308,-0.16113002632933232
+public_debt,debt_raw,debt_z,2004,2025,594,62.6580808080808,36.31073447436094,59.7,-0.08146573873820974
+household_net_financial_worth,liq_raw,liq_z,2004,2025,593,-1.1377953411077852,0.598247369781028,-0.7934709879175242,0.5755551475575922
+real_ppp_income,log_real_ppp_gdp_pc_raw,log_gdp_pc_z,2004,2025,594,10.236525206282723,0.3804819432458755,10.264687098880952,0.07401637081113775

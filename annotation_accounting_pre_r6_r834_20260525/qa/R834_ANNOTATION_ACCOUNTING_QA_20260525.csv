@@ -1,0 +1,11 @@
+check,observed,expected,path,hit_count,hits,status
+row_count_preserved,40,40,,,,PASS
+no_final_closure_in_r834,0,0,,,,PASS
+notebook_cell_level_granularity_recorded,max_lines=182; substeps=33,max_lines<=220; substeps>=20,,,,PASS
+equal_weight_response_uses_three_polish_paths,rows=45; failures=0; components=trade|liq|debt,45 rows; 0 failures; components=trade|liq|debt,,,,PASS
+current_tables_contains_only_current_appendix_d,9 current table files,no non-appendix-d table files in current tables directory,,,,PASS
+changed_rows_reopened,13,13,,,,PASS
+strict_rows_reopened,11,11,,,,PASS
+spot_check_rows_not_auto_closed,16,16,,,,PASS
+readable_markdown_no_internal_leakage,,,artifacts/action_tasks/manuscript_imrad_20260427/mixed_window_2025_granular_notebook_20260524/annotation_accounting_r834_20260525/delivery/Annotation_Accounting_2025_Candidate_R834_20260525.md,0,,PASS
+boox_delivery_hashes_match,3,3,,,,PASS

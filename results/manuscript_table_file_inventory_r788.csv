@@ -1,0 +1,10 @@
+relative_path,suffix,bytes,sha256
+tables/appendix-d-2025-coefficients.csv,.csv,38912,655057f18120f859f5368d404730bbce1f393b1495798901a7fdad4c5da43a21
+tables/appendix-d-2025-coefficients.md,.md,73080,0cbb6e58fa90da950c7e9681819900943c5e42a3395dca874e5db85f4f3d09bd
+tables/appendix-d-2025-estimation-setup.md,.md,3204,7907818626bbf560f6ddf0b932c2cbc1ffa926c63e265cda3a0f792ce617e9e2
+tables/appendix-d-2025-pvalue-summary.csv,.csv,3016,98f05f152eee6b19ebd46d19cc46088c7aedbc15152c158bf31d01f7483a01fd
+tables/appendix-d-2025-pvalue-summary.md,.md,9214,a9ba1c37047c7aa9a151eaa4a39a85c355a9fe41d46e4cc79ac3f73ee8011585
+tables/appendix-d-2025-response-bridge.csv,.csv,4368,2c5d99f5cd032766f0ca520cbc3a5b72c95426c381b6c97a534e6cf0263b6097
+tables/appendix-d-2025-response-bridge.md,.md,7285,60c35d91f2540bf0d869a26359bc3c66b51e357c74a7ecc18c77fa0e6e1f4d7d
+tables/appendix-d-2025-sample-diagnostics.csv,.csv,25967,fe6cbe9bd37022c9a6c0e7d0a3c9c23f5acba1a0bc4acc3948b5478b28d49661
+tables/appendix-d-2025-sample-diagnostics.md,.md,58580,da9f9fbdae644bc797ec7de3baa17f3005634be8fe1cb9c37eec8367f181319c

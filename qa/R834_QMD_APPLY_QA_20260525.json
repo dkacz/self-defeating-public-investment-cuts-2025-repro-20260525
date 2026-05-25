@@ -1,0 +1,575 @@
+{
+  "status": "PASS",
+  "qmd": "artifacts/action_tasks/manuscript_imrad_20260427/manuscript_imrad.qmd",
+  "old_sha256": "d4d2e8ec1348f2def36c2018955db63b14d42d144446cdb690924efa3ad9c843",
+  "new_sha256": "6355dae04a0b6caec31cc24441318d0e79cb2ddf4de9b7a683226cd616475599",
+  "chunks": 30,
+  "replacement_segments": 40,
+  "checks": [
+    {
+      "check": "chunk_01_abstract.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=1; range_paragraphs=1"
+    },
+    {
+      "check": "chunk_01_abstract.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=2"
+    },
+    {
+      "check": "chunk_02_intro_surveillance_institutions.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=4; range_paragraphs=4"
+    },
+    {
+      "check": "chunk_02_intro_surveillance_institutions.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=4"
+    },
+    {
+      "check": "chunk_03_intro_commission_baseline.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=2; range_paragraphs=2"
+    },
+    {
+      "check": "chunk_03_intro_commission_baseline.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=2"
+    },
+    {
+      "check": "chunk_04_debt_threshold_evidence.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=4; range_paragraphs=4"
+    },
+    {
+      "check": "chunk_04_debt_threshold_evidence.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=4"
+    },
+    {
+      "check": "chunk_05_consolidation_identification.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=4; range_paragraphs=4"
+    },
+    {
+      "check": "chunk_05_consolidation_identification.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=4"
+    },
+    {
+      "check": "chunk_06_multiplier_composition.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=5; range_paragraphs=5"
+    },
+    {
+      "check": "chunk_06_multiplier_composition.md:polished_paragraph_count_matches",
+      "passed": true,
+      "detail": "source_paragraphs=5; polished_paragraphs=5"
+    },
+    {
+      "check": "chunk_06_multiplier_composition.md:all_polished_paragraphs_assigned",
+      "passed": true,
+      "detail": "assigned=5; polished_paragraphs=5"
+    },
+    {
+      "check": "chunk_07_lp_framework_intro.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=4; range_paragraphs=4"
+    },
+    {
+      "check": "chunk_07_lp_framework_intro.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=4"
+    },
+    {
+      "check": "chunk_08_lp_baseline_equation.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=3; range_paragraphs=3"
+    },
+    {
+      "check": "chunk_08_lp_baseline_equation.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=3"
+    },
+    {
+      "check": "chunk_09_lp_state_equation_limits.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=7; range_paragraphs=7"
+    },
+    {
+      "check": "chunk_09_lp_state_equation_limits.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=7"
+    },
+    {
+      "check": "chunk_10_state_variables_opening.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=3; range_paragraphs=3"
+    },
+    {
+      "check": "chunk_10_state_variables_opening.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=3"
+    },
+    {
+      "check": "chunk_11_state_import_debt.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=3; range_paragraphs=3"
+    },
+    {
+      "check": "chunk_11_state_import_debt.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=3"
+    },
+    {
+      "check": "chunk_12_state_balance_income_scope.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=5; range_paragraphs=5"
+    },
+    {
+      "check": "chunk_12_state_balance_income_scope.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=5"
+    },
+    {
+      "check": "chunk_13_selection_design.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=3; range_paragraphs=3"
+    },
+    {
+      "check": "chunk_13_selection_design.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=3"
+    },
+    {
+      "check": "chunk_14_selection_support_retained.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=4; range_paragraphs=4"
+    },
+    {
+      "check": "chunk_14_selection_support_retained.md:polished_paragraph_count_matches",
+      "passed": true,
+      "detail": "source_paragraphs=4; polished_paragraphs=4"
+    },
+    {
+      "check": "chunk_14_selection_support_retained.md:all_polished_paragraphs_assigned",
+      "passed": true,
+      "detail": "assigned=4; polished_paragraphs=4"
+    },
+    {
+      "check": "chunk_15_results_table3_setup.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=2; range_paragraphs=2"
+    },
+    {
+      "check": "chunk_15_results_table3_setup.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=2"
+    },
+    {
+      "check": "chunk_16_results_table3_paths.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=5; range_paragraphs=5"
+    },
+    {
+      "check": "chunk_16_results_table3_paths.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=5"
+    },
+    {
+      "check": "chunk_17_results_persistence.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=6; range_paragraphs=6"
+    },
+    {
+      "check": "chunk_17_results_persistence.md:polished_paragraph_count_matches",
+      "passed": true,
+      "detail": "source_paragraphs=6; polished_paragraphs=6"
+    },
+    {
+      "check": "chunk_17_results_persistence.md:all_polished_paragraphs_assigned",
+      "passed": true,
+      "detail": "assigned=6; polished_paragraphs=6"
+    },
+    {
+      "check": "chunk_18_scenario_context_cpk.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=2; range_paragraphs=2"
+    },
+    {
+      "check": "chunk_18_scenario_context_cpk.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=2"
+    },
+    {
+      "check": "chunk_19_scenario_context_nuclear.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=2; range_paragraphs=2"
+    },
+    {
+      "check": "chunk_19_scenario_context_nuclear.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=2"
+    },
+    {
+      "check": "chunk_20_scenario_action_equations.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=5; range_paragraphs=5"
+    },
+    {
+      "check": "chunk_20_scenario_action_equations.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=5"
+    },
+    {
+      "check": "chunk_21_scenario_debt_methods.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=3; range_paragraphs=3"
+    },
+    {
+      "check": "chunk_21_scenario_debt_methods.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=3"
+    },
+    {
+      "check": "chunk_22_debt_results_setup.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=5; range_paragraphs=5"
+    },
+    {
+      "check": "chunk_22_debt_results_setup.md:polished_paragraph_count_matches",
+      "passed": true,
+      "detail": "source_paragraphs=5; polished_paragraphs=5"
+    },
+    {
+      "check": "chunk_22_debt_results_setup.md:all_polished_paragraphs_assigned",
+      "passed": true,
+      "detail": "assigned=5; polished_paragraphs=5"
+    },
+    {
+      "check": "chunk_23_debt_results_polish_paths.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=5; range_paragraphs=5"
+    },
+    {
+      "check": "chunk_23_debt_results_polish_paths.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=5"
+    },
+    {
+      "check": "chunk_24_conclusion.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=5; range_paragraphs=5"
+    },
+    {
+      "check": "chunk_24_conclusion.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=5"
+    },
+    {
+      "check": "chunk_25_appendix_a_opening.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=4; range_paragraphs=4"
+    },
+    {
+      "check": "chunk_25_appendix_a_opening.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=4"
+    },
+    {
+      "check": "chunk_26_appendix_a_diagnostics.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=10; range_paragraphs=10"
+    },
+    {
+      "check": "chunk_26_appendix_a_diagnostics.md:polished_paragraph_count_matches",
+      "passed": true,
+      "detail": "source_paragraphs=10; polished_paragraphs=10"
+    },
+    {
+      "check": "chunk_26_appendix_a_diagnostics.md:all_polished_paragraphs_assigned",
+      "passed": true,
+      "detail": "assigned=10; polished_paragraphs=10"
+    },
+    {
+      "check": "chunk_27_appendix_b_notes.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=2; range_paragraphs=2"
+    },
+    {
+      "check": "chunk_27_appendix_b_notes.md:polished_paragraph_count_matches",
+      "passed": true,
+      "detail": "source_paragraphs=2; polished_paragraphs=2"
+    },
+    {
+      "check": "chunk_27_appendix_b_notes.md:all_polished_paragraphs_assigned",
+      "passed": true,
+      "detail": "assigned=2; polished_paragraphs=2"
+    },
+    {
+      "check": "chunk_28_appendix_c_debt_accounting.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=7; range_paragraphs=7"
+    },
+    {
+      "check": "chunk_28_appendix_c_debt_accounting.md:polished_paragraph_count_matches",
+      "passed": true,
+      "detail": "source_paragraphs=7; polished_paragraphs=7"
+    },
+    {
+      "check": "chunk_28_appendix_c_debt_accounting.md:all_polished_paragraphs_assigned",
+      "passed": true,
+      "detail": "assigned=7; polished_paragraphs=7"
+    },
+    {
+      "check": "chunk_29_appendix_d_setup.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=4; range_paragraphs=4"
+    },
+    {
+      "check": "chunk_29_appendix_d_setup.md:single_range_full_polish_assigned",
+      "passed": true,
+      "detail": "polished_paragraphs=4"
+    },
+    {
+      "check": "chunk_30_appendix_d_response_and_limits.md:source_matches_qmd_ranges",
+      "passed": true,
+      "detail": "source_paragraphs=9; range_paragraphs=9"
+    },
+    {
+      "check": "chunk_30_appendix_d_response_and_limits.md:polished_paragraph_count_matches",
+      "passed": true,
+      "detail": "source_paragraphs=9; polished_paragraphs=9"
+    },
+    {
+      "check": "chunk_30_appendix_d_response_and_limits.md:all_polished_paragraphs_assigned",
+      "passed": true,
+      "detail": "assigned=9; polished_paragraphs=9"
+    },
+    {
+      "check": "source_ranges_non_overlapping",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "manifest_has_30_chunks",
+      "passed": true,
+      "detail": "chunks=30"
+    },
+    {
+      "check": "replacement_segments_count",
+      "passed": true,
+      "detail": "segments=40"
+    },
+    {
+      "check": "qmd_hash_changed",
+      "passed": true,
+      "detail": "old=d4d2e8ec1348f2def36c2018955db63b14d42d144446cdb690924efa3ad9c843; new=6355dae04a0b6caec31cc24441318d0e79cb2ddf4de9b7a683226cd616475599"
+    },
+    {
+      "check": "forbidden_visible_terms_absent",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "chunk_01_abstract.md:14-14:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_02_intro_surveillance_institutions.md:19-25:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_03_intro_commission_baseline.md:27-29:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_04_debt_threshold_evidence.md:35-41:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_05_consolidation_identification.md:43-49:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_06_multiplier_composition.md:53-58:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_06_multiplier_composition.md:82-84:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_07_lp_framework_intro.md:89-96:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_08_lp_baseline_equation.md:97-105:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_09_lp_state_equation_limits.md:106-122:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_10_state_variables_opening.md:126-130:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_11_state_import_debt.md:154-158:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_12_state_balance_income_scope.md:160-168:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_13_selection_design.md:172-176:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_14_selection_support_retained.md:178-180:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_14_selection_support_retained.md:192-194:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_15_results_table3_setup.md:200-202:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_16_results_table3_paths.md:218-226:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_17_results_persistence.md:230-232:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_17_results_persistence.md:236-238:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_17_results_persistence.md:252-254:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_18_scenario_context_cpk.md:260-262:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_19_scenario_context_nuclear.md:264-266:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_20_scenario_action_equations.md:268-286:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_21_scenario_debt_methods.md:288-292:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_22_debt_results_setup.md:297-301:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_22_debt_results_setup.md:317-319:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_23_debt_results_polish_paths.md:321-329:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_24_conclusion.md:333-341:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_25_appendix_a_opening.md:515-523:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_26_appendix_a_diagnostics.md:595-619:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_26_appendix_a_diagnostics.md:709-709:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_27_appendix_b_notes.md:713-713:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_27_appendix_b_notes.md:765-765:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_28_appendix_c_debt_accounting.md:769-783:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_28_appendix_c_debt_accounting.md:802-802:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_28_appendix_c_debt_accounting.md:1129-1129:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_29_appendix_d_setup.md:1133-1144:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_30_appendix_d_response_and_limits.md:1146-1179:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "check": "chunk_30_appendix_d_response_and_limits.md:1214-1214:polished_segment_present",
+      "passed": true,
+      "detail": "count=1"
+    }
+  ]
+}

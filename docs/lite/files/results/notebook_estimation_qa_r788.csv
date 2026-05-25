@@ -1,0 +1,61 @@
+check,passed,detail
+source_inventory_includes_model_inputs,True,Model input files are inventoried.
+granular_estimation_contract_all_satisfied,True,Granularity contract rows passed: 18/18.
+estimation_visibility_audit_rows_expected,True,Visibility audit stages: 18.
+estimation_visibility_all_stages_pass,True,Visibility stages passed: 18/18.
+estimation_visibility_contract_all_pass,True,Visibility contract rows passed: 4/4.
+pvalues_computed_in_notebook_visibility_audit,True,"Coefficient, standard-error and p-value code tokens are present in the notebook."
+estimation_step_register_complete,True,Visible estimation audit steps: 19.
+estimation_micro_step_register_granular,True,Granular calculation steps: 65.
+estimation_micro_step_register_covers_core_estimation,True,"Micro-step parent groups: ['admission', 'complete_cases', 'debt_recursion', 'design', 'direct_debt', 'eurostat_gate', 'interactions', 'lp_estimation', 'lp_estimation_detail', 'lp_panel', 'number_mapping', 'paper_objects', 'poland_profile', 'qa', 'shock', 'source_inventory', 'standardisation', 'state_panel', 'tiva', 'uncertainty', 'visibility_audit']."
+estimation_equation_register_complete,True,Equation ids: 11.
+no_external_estimator_script_reference,True,Notebook source does not reference the old external estimator scripts.
+notebook_code_cells_split_to_granular_blocks,True,Max code-cell length 182; cells over 220 lines: 0.
+notebook_granular_substep_markers_present,True,Granular substep markdown blocks: 33.
+strict_eu27_2025_gate_loaded,True,Missing 2025 annual Eurostat observations for at least one EU27 country: core_household_credit missing IRL | replacement_household_total_financial_assets missing IRL | replacement_household_total_financial_liabilities missing IRL
+ireland_liq_missing_only_where_needed,True,Ireland's 2025 liquidity input remains missing.
+ireland_debt_present_2025,True,Ireland has observed 2025 public debt.
+debt_2025_has_27_countries,True,Public debt has full EU27 2025 coverage.
+all_15_feature_sets_catalogued,True,Feature sets catalogued: 15.
+debt_log_keeps_ireland,True,Ireland stays in the 2025 debt+log GDP profile.
+trade_liq_log_poland_complete,True,Poland has the full mixed 2025 profile for trade+liq+log GDP.
+h8_design_rows_for_all_feature_sets,True,h8 design rows: 15.
+h8_design_minimum_sample,True,Minimum h8 nobs: 378.
+visible_estimates_expected_rows,True,Estimate rows: 288.
+lp_stepwise_outputs_created,True,"LP stepwise rows: coefficients=5760, covariance=89856, contrast=2880, ratio=288."
+visible_h8_trade_liq_output_ok,True,h=8 trade+liq output estimate is available.
+direct_debt_kernel_rows_expected,True,Direct debt rows: 144.
+direct_debt_kernel_status_ok,True,All direct debt-to-GDP kernels have OK status.
+full_stepwise_outputs_created,True,"Full stepwise rows: coefficients=8640, covariance=134784, contrast=4320, ratio=432."
+covariance_symmetry_all_pass,True,Same-equation covariance blocks checked: 1440; max asymmetry=1.057e-14.
+full_stepwise_includes_direct_debt,True,Direct debt is included in the full stepwise arithmetic ledger.
+dsm_baseline_2036_reproduced,True,Max DSM baseline reproduction difference: 0.014719 pp.
+debt_2036_summary_rows_expected,True,2036 debt summary rows: 32.
+model_admission_screen_created,True,Admission rows: 15.
+model_admission_retains_trade_and_liq_diagnostic,True,"Retained diagnostic single features: ['trade', 'liq', 'debt']."
+retained_candidate_paths_created,True,Retained path rows: 45.
+equal_weight_response_uses_three_polish_paths,True,"Equal-weight response QA rows: 45; max absolute difference=8.882e-16; components=['trade', 'liq', 'debt']."
+retained_annual_equal_weight_rows_present,True,Equal-weight annual debt rows for 2028-2036 expansion/cut: 18.
+bootstrap_draws_created,True,Bootstrap draw rows: 1592.
+bootstrap_summary_equal_weight_cut_present,True,Equal-weight cut debt endpoint uncertainty is summarized.
+manuscript_table_inventory_created,True,Active manuscript table captions inventoried: 27.
+manuscript_figure_inventory_created,True,Manuscript figures inventoried: 4.
+candidate_tables_created,True,Candidate R788 tables created: 15.
+appendix_d_display_tables_created,True,Appendix D replacement display tables: 4.
+appendix_d_h0_spending_response_ratio_has_no_pvalue_marker,True,Appendix D h0 public-investment response-ratio rows: 16; p= markers: 0.
+candidate_figures_created,True,Candidate R788 figures created: 4.
+object_coverage_status_complete,True,Every inventoried manuscript object has an R788 coverage status.
+manuscript_number_inventory_created,True,Numeric manuscript claims inventoried: 2352.
+table_numeric_inventory_created,True,Included-table numbers inventoried: 6197.
+article_numeric_surface_inventory_created,True,Article numeric surface rows: 8549.
+table_crosswalk_covers_table_inventory,True,Crosswalk rows: 27.
+article_numeric_rows_have_mapping_status,True,Every extracted article number has a mapping status.
+article_numeric_status_summary_created,True,Numeric mapping status rows: 7.
+paper_number_ledger_created,True,Candidate paper-number ledger rows: 126.
+article_numeric_trace_rows_match_surface,True,Trace rows: 8549; surface rows: 8549.
+article_numeric_trace_has_action_class,True,Every traced article number has an action class.
+article_numeric_trace_has_source_status,True,Every traced article number has a source status.
+article_numeric_trace_catalog_complete,True,Missing source-catalog keys: [].
+appendix_d_numbers_mapped_to_ready_replacement,True,Every current Appendix D table number is mapped to the R788 notebook-generated replacement manifest.
+line_action_ledger_created,True,Line-level action rows: 569.
+unresolved_worklist_created,True,Rows needing article/source work: 8467.

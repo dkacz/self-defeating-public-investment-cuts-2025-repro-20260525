@@ -1,0 +1,32 @@
+check,passed,detail
+stale_absent::annual EU27 panel for 2004-2024,True,annual EU27 panel for 2004-2024
+stale_absent::two Polish evaluations,True,two Polish evaluations
+stale_absent::two retained Polish evaluations,True,two retained Polish evaluations
+stale_absent::Arithmetic average of the two retained Polish paths,True,Arithmetic average of the two retained Polish paths
+stale_absent::three Polish evaluations are retained,True,three Polish evaluations are retained
+stale_absent::retained Polish evaluations,True,retained Polish evaluations
+stale_absent::Candidates retained for the response and debt application,True,Candidates retained for the response and debt application
+"stale_absent::| Public debt | Maastricht gross debt, percent of GDP | 567 ",True,"| Public debt | Maastricht gross debt, percent of GDP | 567 |"
+stale_absent::| Household balance-sheet fragility | Negative household net,True,| Household balance-sheet fragility | Negative household net financial worth divided by GDP | 513 |
+stale_absent::| Real PPP income level | Log real GDP per capita in 2020 PP,True,| Real PPP income level | Log real GDP per capita in 2020 PPS terms | 513 |
+stale_absent::| Public debt | 62.5 | 36.5 | 48.8 | -0.377 |,True,| Public debt | 62.5 | 36.5 | 48.8 | -0.377 |
+stale_absent::| Household balance-sheet fragility | -1.112 | 0.592 | -0.65,True,| Household balance-sheet fragility | -1.112 | 0.592 | -0.657 | 0.769 |
+stale_absent::| Real PPP income level | 10.210 | 0.384 | 10.184 | -0.068 |,True,| Real PPP income level | 10.210 | 0.384 | 10.184 | -0.068 |
+stale_absent::| Investment import content evaluation | Investment import c,True,| Investment import content evaluation | Investment import content | 0.004 | -0.161 |
+stale_absent::| Household balance-sheet-fragility evaluation | Household b,True,| Household balance-sheet-fragility evaluation | Household balance-sheet fragility | 0.013 | 0.769 |
+"stale_absent::| EU27 benchmark | Fixed effects panel, no state interaction",True,"| EU27 benchmark | Fixed effects panel, no state interactions | 2.11 | 0.76 | 2.79 |"
+stale_absent::| Equal weight average across the two Polish evaluations | -,True,| Equal weight average across the two Polish evaluations | -5.4 | -3.0 | 5.7 | 3.0 |
+stale_absent::4.9 to 6.5 percentage points,True,4.9 to 6.5 percentage points
+stale_absent::1.7 to 4.3 percentage points,True,1.7 to 4.3 percentage points
+required_present::| Public debt | Poland's Maastricht public debt profile | 1.,True,| Public debt | Poland's Maastricht public debt profile | 1.78 | 0.75 | 2.37 | Fiscal position evaluation |
+required_present::| Polish evaluation based on public debt | -3.4 | -2.7 | 3.7,True,| Polish evaluation based on public debt | -3.4 | -2.7 | 3.7 | 2.7 |
+"required_present::| Public debt | Maastricht gross debt, percent of GDP | 594 ",True,"| Public debt | Maastricht gross debt, percent of GDP | 594 | Eurostat through 2025 |"
+required_present::| Household balance-sheet fragility | Negative household net,True,| Household balance-sheet fragility | Negative household net financial worth divided by GDP | 593 | Eurostat through 2025 where available; Ireland lacks the 2025 financial-account input |
+required_present::| Real PPP income level | Log real GDP per capita in 2020 PP,True,| Real PPP income level | Log real GDP per capita in 2020 PPS terms | 594 | Eurostat through 2025 |
+required_present::| Public debt | 62.658 | 36.311 | 59.700 | -0.081 |,True,| Public debt | 62.658 | 36.311 | 59.700 | -0.081 |
+required_present::The R788 screen passes 8 candidate subsets.,True,The R788 screen passes 8 candidate subsets.
+required_present::The main scenario carries the 3 one-state Polish evaluations,True,The main scenario carries the 3 one-state Polish evaluations because each maps to a single economic channel.
+required_present::The full diagnostic screen also discloses multi-state candid,True,The full diagnostic screen also discloses multi-state candidates in Appendix A rather than hiding them behind the main result.
+required_present::Table A.4c. Diagnostic gate values.,True,Table A.4c. Diagnostic gate values.
+required_present::The interaction gate is evaluated at horizon $h=8$ and uses ,True,The interaction gate is evaluated at horizon $h=8$ and uses $p \leq 0.10$.
+required_present::Equal weight average across the three one-state Polish paths,True,Equal weight average across the three one-state Polish paths

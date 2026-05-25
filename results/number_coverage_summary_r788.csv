@@ -1,0 +1,7 @@
+object,count,status
+current manuscript qmd numeric claims,2352,inventory_only_not_yet_mapped
+current included table numeric cells,6197,inventory_only_not_yet_mapped
+current article numeric surface,8549,inventory_only_not_yet_fully_mapped
+current manuscript table-to-candidate crosswalk,27,mapping_status_assigned_not_final_replacement
+article numeric mapping status categories,7,audit_status_summary
+candidate notebook paper-number ledger rows,126,candidate_not_paper_truth

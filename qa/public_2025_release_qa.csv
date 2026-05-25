@@ -1,0 +1,14 @@
+check,status,detail
+notebook_present,PASS,self_defeating_public_investment_cuts_2025_granular_audit.ipynb
+source_data_present,PASS,source inputs copied
+current_article_pdf_present,PASS,current accepted PDF copied
+current_article_epub_present,PASS,current accepted EPUB copied
+annotation_accounting_current_present,PASS,R834/R836 annotation accounting copied
+boox_delivery_current_present,PASS,Boox article copy evidence copied
+pro_r6_summary_present,PASS,R6 summary copied
+notebook_execution_cells_pass,PASS,cells=44
+notebook_qa_60_60,PASS,notebook QA ledger present
+docs_index_present,PASS,landing page built
+jupyterlite_index_present,PASS,JupyterLite shell copied
+jupyterlite_notebook_payload_present,PASS,notebook in JupyterLite payload
+download_zip_present,PASS,full public package zip built

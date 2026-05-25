@@ -1,0 +1,33 @@
+Feature set,Outcome,horizons,coefficient_p_values_above_0_10,ratio_p_values_above_0_10,min_observations,max_observations,countries,first_year,last_year
+EU27 linear benchmark,Output,9,6,6,378,583,27,2004,2025
+EU27 linear benchmark,Public investment spending,9,5,6,378,583,27,2004,2025
+household net financial worth,Output,9,6,6,378,583,27,2004,2025
+household net financial worth,Public investment spending,9,6,6,378,583,27,2004,2025
+household net financial worth + real PPP income,Output,9,5,5,378,583,27,2004,2025
+household net financial worth + real PPP income,Public investment spending,9,6,6,378,583,27,2004,2025
+investment import content,Output,9,4,4,378,531,27,2004,2023
+investment import content,Public investment spending,9,5,5,378,531,27,2004,2023
+investment import content + household net financial worth,Output,9,4,4,378,531,27,2004,2023
+investment import content + household net financial worth,Public investment spending,9,5,5,378,531,27,2004,2023
+investment import content + household net financial worth + real PPP income,Output,9,5,5,378,531,27,2004,2023
+investment import content + household net financial worth + real PPP income,Public investment spending,9,6,6,378,531,27,2004,2023
+investment import content + public debt,Output,9,3,3,378,531,27,2004,2023
+investment import content + public debt,Public investment spending,9,5,5,378,531,27,2004,2023
+investment import content + public debt + household net financial worth,Output,9,3,3,378,531,27,2004,2023
+investment import content + public debt + household net financial worth,Public investment spending,9,5,5,378,531,27,2004,2023
+investment import content + public debt + household net financial worth + real PPP income,Output,9,5,5,378,531,27,2004,2023
+investment import content + public debt + household net financial worth + real PPP income,Public investment spending,9,5,5,378,531,27,2004,2023
+investment import content + public debt + real PPP income,Output,9,5,5,378,531,27,2004,2023
+investment import content + public debt + real PPP income,Public investment spending,9,5,5,378,531,27,2004,2023
+investment import content + real PPP income,Output,9,5,5,378,531,27,2004,2023
+investment import content + real PPP income,Public investment spending,9,5,5,378,531,27,2004,2023
+public debt,Output,9,7,7,378,583,27,2004,2025
+public debt,Public investment spending,9,5,5,378,583,27,2004,2025
+public debt + household net financial worth,Output,9,6,6,378,583,27,2004,2025
+public debt + household net financial worth,Public investment spending,9,5,5,378,583,27,2004,2025
+public debt + household net financial worth + real PPP income,Output,9,6,6,378,583,27,2004,2025
+public debt + household net financial worth + real PPP income,Public investment spending,9,6,6,378,583,27,2004,2025
+public debt + real PPP income,Output,9,8,8,378,583,27,2004,2025
+public debt + real PPP income,Public investment spending,9,6,6,378,583,27,2004,2025
+real PPP income,Output,9,8,8,378,583,27,2004,2025
+real PPP income,Public investment spending,9,6,6,378,583,27,2004,2025

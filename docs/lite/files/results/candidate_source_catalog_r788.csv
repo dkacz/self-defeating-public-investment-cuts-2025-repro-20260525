@@ -1,0 +1,18 @@
+source_key,source_file,notebook_section,source_status,role
+paper_number_ledger_r788.csv,paper_number_ledger_r788.csv,17. Numeric inventory,candidate_not_paper_truth,candidate notebook-produced headline and audit numbers
+candidate_figure_manifest_r788.csv,candidate_figure_manifest_r788.csv,16. Manuscript object inventory,candidate_not_paper_truth,candidate notebook-produced figure objects
+r788_visible_lp_estimates_all_horizons,visible_lp_estimates_all_horizons_r788.csv,12. Local-projection estimates,candidate_not_paper_truth,"coefficient, standard error, p-value and horizon-level local projection rows"
+r788_appendix_d_display_manifest,appendix_d_display_manifest_r788.csv,16. Manuscript object inventory,candidate_source_ready_for_appendix_d_replacement,reader-facing Appendix D replacement tables generated from visible coefficient rows
+r788_visible_lp_estimates_h8_summary,visible_lp_estimates_h8_summary_r788.csv,12. Local-projection estimates,candidate_not_paper_truth,h=8 cumulative K_Y and K_G values
+r788_model_admission_screen,model_admission_screen_r788.csv,14. Model-admission screen,candidate_not_paper_truth,candidate selection and diagnostic pass/fail rows
+r788_h8_retained_responses,candidate_tables_r788/r788_h8_retained_responses.csv,16. Manuscript object inventory,candidate_not_paper_truth,candidate main-response table rows
+r788_ky_paths,candidate_tables_r788/r788_ky_paths.csv,16. Manuscript object inventory,candidate_not_paper_truth,candidate K_Y path table rows
+r788_kg_paths,candidate_tables_r788/r788_kg_paths.csv,16. Manuscript object inventory,candidate_not_paper_truth,candidate K_G path table rows
+r788_output_spending_ratio_paths,candidate_tables_r788/r788_output_spending_ratio_paths.csv,16. Manuscript object inventory,candidate_not_paper_truth,candidate K_Y/K_G path table rows
+r788_debt_2036_summary,debt_2036_summary_r788.csv,13. Debt recursion shell,candidate_not_paper_truth,candidate 2036 debt endpoint rows
+r788_annual_debt_decomposition_retained_single,candidate_tables_r788/r788_annual_debt_decomposition_retained_single.csv,16. Manuscript object inventory,candidate_not_paper_truth,candidate annual debt-accounting decomposition rows
+r788_state_variable_profile,poland_mixed_window_profile_r788.csv,6. Standardization and Poland profile,candidate_not_paper_truth,candidate state-variable profile and source-window rows
+r788_cumulative_uncertainty_summary,cumulative_uncertainty_summary_r788.csv,15. Cumulative uncertainty,candidate_not_paper_truth,diagnostic bootstrap uncertainty summaries
+non_model_literature_source_ledger_required,to_be_built_non_model_source_ledger,not a model output,source_ledger_required,"literature, institutional and data-release facts not produced by the estimator"
+manual_source_mapping_required,manual_article_line_review,not resolved by current notebook,manual_review_required,article text requiring a targeted source or rewrite decision
+structural_or_caption_no_source_required,,manuscript structure,no_empirical_source_required,"section numbers, table identifiers and other non-empirical labels"

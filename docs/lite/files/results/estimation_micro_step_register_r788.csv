@@ -1,0 +1,66 @@
+micro_step_order,parent_step,calculation,inputs,outputs,audit_note
+1,source_inventory,Locate copied source files,ROOT / references and ROOT / data,source_inventory,No online or hidden input is read.
+2,source_inventory,Hash copied source files,source files,source_inventory_r788.csv,Every input has an auditable checksum when the file exists.
+3,eurostat_gate,Read Eurostat 2025 availability ledger,Eurostat copied inputs,eurostat_2025_missingness_r788.csv,Ireland is checked variable by variable.
+4,eurostat_gate,Apply strict EU27 2025 gate,missingness ledger,strict_2025_gate_r788.csv,The strict gate remains blocked only where a required row is missing.
+5,state_panel,"Load GDP, GDP per capita, public debt and household financial accounts",copied Eurostat files,state_variable_source_panel_r788.csv,The raw state panel is visible before standardisation.
+6,state_panel,Create liquidity ratio,household financial assets and liabilities,state_variable_source_panel_r788.csv,Liquidity is built only where both ingredients exist.
+7,state_panel,Create debt ratio,public debt and GDP,state_variable_source_panel_r788.csv,Ireland is kept for debt calculations when the debt row exists.
+8,state_panel,Create real-income level proxy,GDP per capita,state_variable_source_panel_r788.csv,Income is separated from liquidity and debt missingness.
+9,tiva,Read official TiVA import-content data,official TiVA copied source,tiva_official_coverage_r788.csv,No fabricated TiVA row after 2022 is introduced.
+10,tiva,Copy Poland 2022 TiVA profile for 2025 profile calculation,official 2022 TiVA value,poland_mixed_window_profile_r788.csv,"This is flagged as an estimation-window design choice, not new TiVA data."
+11,standardisation,Compute EU means and standard deviations,state variable source panel,state_variable_standardization_ledger_r788.csv,The denominator for each z-score is visible.
+12,standardisation,Compute lagged z-scores,state variable source panel,state_variable_source_panel_r788.csv,All state variables enter interactions as lagged standardized values.
+13,poland_profile,Assemble Poland 2025 mixed-window profile,state variables and TiVA flag,poland_mixed_window_profile_r788.csv,The profile records which year each component comes from.
+14,complete_cases,Enumerate all non-empty feature sets,FEATURES,feature_set_catalog_r788.csv,There are 15 candidate feature sets.
+15,complete_cases,Count complete countries for each 2025 feature set,state profile rows,feature_set_2025_complete_case_r788.csv,Ireland drops only from feature sets needing its missing liquidity row.
+16,lp_panel,Load macro panel used for local projections,copied estimation data,lp_work_panel_r788.csv,The dependent variables are created in the notebook.
+17,lp_panel,Construct horizon changes h0-h8,macro panel,lp_work_panel_r788.csv,Each response horizon is written as a visible column.
+18,lp_panel,Construct lagged macro controls,macro panel,lp_work_panel_r788.csv,Lag controls are not hidden in a helper estimator.
+19,shock,Residualize policy-system variables on country and year fixed effects,lp work panel,shock_panel_r788.csv,Fixed-effect residualization is visible.
+20,shock,Compute Cholesky investment innovation,residualized policy variables,shock_panel_r788.csv,The shock construction has a separate variance summary.
+21,shock,Export shock variance and coverage,shock panel,shock_variance_summary_r788.csv,This checks that the shock is non-degenerate.
+22,interactions,Merge lagged state variables into the LP panel,lp work panel and state panel,feature_lag_merge_audit_r788.csv,Merge loss is visible by feature.
+23,interactions,Build shock-by-state interactions,shock and lagged z-scores,lp_design_panel_r788.csv,Every interaction column is created inside the notebook.
+24,design,Build h=8 design matrix for each feature set,lp design panel,h8_design_matrix_columns_r788.csv,The exact regressors are exported.
+25,design,"Check observations, rank and condition number",h8 design matrices,h8_design_matrix_summary_r788.csv,The admission screen can inspect matrix health.
+26,lp_estimation,Loop over horizons h0-h8,lp design panel,visible_lp_estimates_all_horizons_r788.csv,The horizon loop is inside the notebook.
+27,lp_estimation,Residualize outcome and regressors on fixed effects,design matrices,visible_lp_estimates_all_horizons_r788.csv,OLS inputs are visible after within-transformation.
+28,lp_estimation,Estimate OLS coefficients,residualized design matrices,visible_lp_estimates_all_horizons_r788.csv,Coefficient rows are written for each response and feature set.
+29,lp_estimation,Compute Driscoll-Kraay covariance,OLS residuals and design matrices,visible_lp_estimates_all_horizons_r788.csv,The covariance choice is part of the visible estimator.
+30,lp_estimation,"Compute standard errors, t statistics and p-values",coefficients and covariance,visible_lp_estimates_all_horizons_r788.csv,"P-values are produced in the notebook, not read from a frozen table."
+31,lp_estimation,Evaluate Poland 2025 state profile interactions,estimated coefficients and Poland profile,visible_lp_estimates_all_horizons_r788.csv,The profile-specific slope is visible.
+32,lp_estimation,Compute response ratios and cumulative K values,profile-specific slopes,visible_lp_estimates_h8_summary_r788.csv,K_Y and K_G are derived inside the notebook.
+321,lp_estimation_detail,Export the full coefficient vector for every visible regression,residualized design matrices,full_stepwise_coefficients_r788.csv,"The reviewer can inspect every coefficient, standard error, test statistic and p-value."
+322,lp_estimation_detail,Export covariance and cross-covariance blocks,Driscoll-Kraay covariance matrices,full_stepwise_covariance_blocks_r788.csv,"The ratio uncertainty is auditable from matrix entries, not only from a finished ratio."
+3221,lp_estimation_detail,Check same-equation covariance symmetry,exported covariance blocks,covariance_symmetry_qa_r788.csv,The notebook fails if same-equation covariance blocks are not symmetric.
+323,lp_estimation_detail,Export Poland profile contrast weights,Poland z-scores and interaction columns,full_stepwise_profile_contrasts_r788.csv,The state-specific estimate shows the exact weights applied to each coefficient.
+324,lp_estimation_detail,Export ratio arithmetic for every horizon and feature set,profile coefficients and covariance terms,full_stepwise_ratio_arithmetic_r788.csv,The division by the initial investment response is visible before cumulative K paths are formed.
+33,direct_debt,Estimate direct debt-to-GDP kernels h0-h8,same shock and feature design,direct_debt_kernel_all_horizons_r788.csv,Direct debt uses the same visible estimation machinery.
+34,debt_recursion,Define cut and expansion fiscal scenarios,scenario table,three_year_program_paths_r788.csv,Policy paths are explicit year by year.
+35,debt_recursion,Convolve response paths with fiscal scenarios,K paths and scenarios,three_year_program_paths_r788.csv,The spending-output arithmetic is visible.
+36,debt_recursion,Reproduce Commission-style baseline debt path,baseline assumptions,dsm_baseline_reproduction_r788.csv,Baseline reproduction is checked before scenarios.
+37,debt_recursion,Run annual debt recursion through 2036,"baseline, interest-growth and primary-balance paths",dsa_debt_paths_r788.csv,Debt arithmetic is year-by-year.
+38,debt_recursion,Compare 2036 debt endpoints,debt paths,debt_2036_summary_r788.csv,The endpoint table is derived from annual paths.
+381,debt_recursion,Build equal-weight annual debt path,three retained one-state annual paths,retained_candidate_annual_debt_paths_r788.csv,"The Appendix C equal-weight annual rows are visible averages, not hand-filled table text."
+39,admission,Apply model-admission diagnostics,"design, estimates and correlations",model_admission_screen_r788.csv,Pass/fail gates are visible column by column.
+40,uncertainty,Resample countries for retained paths,country-level panel,cumulative_uncertainty_bootstrap_draws_r788.csv,Bootstrap draws re-estimate the paths.
+41,uncertainty,Propagate bootstrap paths to debt endpoints,bootstrap response paths,cumulative_uncertainty_bootstrap_draws_r788.csv,Uncertainty is carried into debt arithmetic.
+42,uncertainty,Summarize bootstrap intervals,bootstrap draws,cumulative_uncertainty_summary_r788.csv,Intervals are diagnostic until Pro review.
+43,paper_objects,Inventory manuscript table captions and includes,manuscript_imrad.qmd,manuscript_object_inventory_r788.csv,The paper surface is read by the notebook.
+44,paper_objects,Generate candidate notebook tables,notebook result frames,candidate_table_manifest_r788.csv,"The tables are candidates, not final manuscript replacements."
+45,paper_objects,Generate candidate notebook figures,notebook result frames,candidate_figure_manifest_r788.csv,Every candidate figure is produced by notebook code.
+46,number_mapping,Extract numbers from manuscript text,manuscript_imrad.qmd,manuscript_numeric_claim_inventory_r788.csv,This captures text-level numerical claims.
+47,number_mapping,Extract numbers from included table files,current table includes,current_table_numeric_inventory_r788.csv,This prevents table numbers from escaping the audit.
+48,number_mapping,Build table-to-candidate crosswalk,manuscript table inventory,manuscript_table_to_candidate_crosswalk_r788.csv,Each current table receives an audit status.
+49,number_mapping,Build article numeric surface inventory,text and table numeric inventories,article_numeric_surface_inventory_r788.csv,This is the current full article number surface.
+50,number_mapping,Build candidate paper-number ledger,notebook results,paper_number_ledger_r788.csv,Notebook-produced numbers are separated from final paper truth.
+51,number_mapping,Build candidate source catalog,notebook result files and non-model source requirements,candidate_source_catalog_r788.csv,Every source token used by the trace ledger has an explicit meaning.
+52,number_mapping,Classify every article number by required action,article numeric surface,article_numeric_trace_ledger_r788.csv,Each number receives a source-status and action class.
+53,number_mapping,Create line-level manuscript action ledger,article numeric trace ledger,article_numeric_line_action_ledger_r788.csv,Text updates can be planned line by line instead of by isolated number.
+54,number_mapping,Write unresolved worklist,article numeric trace ledger,article_numeric_unresolved_worklist_r788.csv,Remaining work is explicit before manuscript replacement.
+55,visibility_audit,Map each estimation stage to visible code tokens,notebook source text and audit registers,estimation_visibility_audit_r788.csv,A reviewer can locate the actual notebook code for each estimation stage.
+56,visibility_audit,Assert no stage is satisfied only by a frozen result file,visibility audit rows,estimation_visibility_contract_r788.csv,The audit distinguishes visible computation from table reuse.
+57,qa,Assert notebook execution gates,all prior outputs,notebook_estimation_qa_r788.csv,The notebook passes only if the granular layer is internally consistent.
+58,qa,Assert no external estimator script is referenced,notebook source text,notebook_estimation_qa_r788.csv,This guards against delegating the estimation to a hidden script.
+59,qa,Assert notebook code cells are split into granular blocks,notebook source JSON,notebook_estimation_qa_r788.csv,The audit surface fails if central estimation code is glued into large opaque cells.

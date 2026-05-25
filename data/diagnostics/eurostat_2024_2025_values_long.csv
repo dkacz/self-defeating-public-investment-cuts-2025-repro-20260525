@@ -1,0 +1,970 @@
+input,role,dataset,params,geo,country,year,value,status_flag
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,AT,AUT,2024,380175.2,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,AT,AUT,2025,382516.1,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,BE,BEL,2024,481176.1,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,BE,BEL,2025,485906.6,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,BG,BGR,2024,58847.0,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,BG,BGR,2025,60669.1,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,CY,CYP,2024,28730.5,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,CY,CYP,2025,29814.6,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,CZ,CZE,2024,201087.9,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,CZ,CZE,2025,206276.9,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,DE,DEU,2024,3314110.9,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,DE,DEU,2025,3322050.8,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,DK,DNK,2024,327649.3,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,DK,DNK,2025,337244.3,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,EE,EST,2024,24834.4,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,EE,EST,2025,24979.5,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,EL,GRC,2024,201579.5,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,EL,GRC,2025,205758.4,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,ES,ESP,2024,1287587.6,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,ES,ESP,2025,1323961.4,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,FI,FIN,2024,228315.0,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,FI,FIN,2025,228711.0,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,FR,FRA,2024,2451852.9,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,FR,FRA,2025,2472471.7,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,HR,HRV,2024,61568.2,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,HR,HRV,2025,63663.1,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,HU,HUN,2024,142537.3,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,HU,HUN,2025,143263.6,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,IE,IRL,2024,459451.4,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,IE,IRL,2025,516136.6,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,IT,ITA,2024,1833549.8,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,IT,ITA,2025,1843443.4,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,LT,LTU,2024,49995.4,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,LT,LTU,2025,51455.3,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,LU,LUX,2024,63549.4,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,LU,LUX,2025,63954.7,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,LV,LVA,2024,27543.7,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,LV,LVA,2025,28132.6,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,MT,MLT,2024,17689.1,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,MT,MLT,2025,18389.9,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,NL,NLD,2024,829927.1,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,NL,NLD,2025,844738.2,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,PL,POL,2024,594143.0,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,PL,POL,2025,615721.8,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,PT,PRT,2024,218460.0,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,PT,PRT,2025,222533.1,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,RO,ROU,2024,213902.1,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,RO,ROU,2025,215352.0,p
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,SE,SWE,2024,517720.8,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,SE,SWE,2025,525710.1,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,SI,SVN,2024,50111.0,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,SI,SVN,2025,50642.1,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,SK,SVK,2024,96644.0,
+core_real_gdp,core LP outcome/input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=B1GQ,SK,SVK,2025,97424.3,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,AT,AUT,2024,80226.1,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,AT,AUT,2025,82114.7,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,BE,BEL,2024,113918.9,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,BE,BEL,2025,115755.9,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,BG,BGR,2024,10392.4,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,BG,BGR,2025,11123.5,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,CY,CYP,2024,4656.8,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,CY,CYP,2025,4751.7,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,CZ,CZE,2024,40338.7,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,CZ,CZE,2025,41204.0,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,DE,DEU,2024,741884.3,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,DE,DEU,2025,751664.3,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,DK,DNK,2024,72677.6,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,DK,DNK,2025,73777.9,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,EE,EST,2024,4797.9,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,EE,EST,2025,4920.8,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,EL,GRC,2024,37497.7,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,EL,GRC,2025,37611.9,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,ES,ESP,2024,258607.0,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,ES,ESP,2025,264896.5,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,FI,FIN,2024,60308.0,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,FI,FIN,2025,60164.0,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,FR,FRA,2024,600629.4,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,FR,FRA,2025,610450.8,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,HR,HRV,2024,13775.7,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,HR,HRV,2025,14345.7,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,HU,HUN,2024,26220.6,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,HU,HUN,2025,26843.2,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,IE,IRL,2024,54684.1,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,IE,IRL,2025,56837.0,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,IT,ITA,2024,342023.0,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,IT,ITA,2025,343967.6,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,LT,LTU,2024,6606.8,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,LT,LTU,2025,6674.3,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,LU,LUX,2024,12288.0,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,LU,LUX,2025,12748.3,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,LV,LVA,2024,5452.3,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,LV,LVA,2025,5833.0,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,MT,MLT,2024,2964.6,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,MT,MLT,2025,3139.9,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,NL,NLD,2024,213950.0,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,NL,NLD,2025,218071.5,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,PL,POL,2024,112524.4,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,PL,POL,2025,118440.1,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,PT,PRT,2024,36343.2,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,PT,PRT,2025,36934.9,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,RO,ROU,2024,27572.6,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,RO,ROU,2025,26858.9,p
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,SE,SWE,2024,128487.6,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,SE,SWE,2025,129439.4,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,SI,SVN,2024,9449.7,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,SI,SVN,2025,9600.1,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,SK,SVK,2024,16696.6,
+core_real_government_consumption,core LP input,nama_10_gdp,freq=A&unit=CLV15_MEUR&na_item=P3_S13,SK,SVK,2025,16881.3,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,AT,AUT,2024,19443.1,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,AT,AUT,2025,20004.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,BE,BEL,2024,19367.3,p
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,BE,BEL,2025,19946.8,p
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,BG,BGR,2024,3311.3,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,BG,BGR,2025,5243.5,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,CY,CYP,2024,964.7,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,CY,CYP,2025,1201.2,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,CZ,CZE,2024,15104.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,CZ,CZE,2025,17960.9,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,DE,DEU,2024,132292.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,DE,DEU,2025,145352.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,DK,DNK,2024,12467.3,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,DK,DNK,2025,13805.2,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,EE,EST,2024,2478.4,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,EE,EST,2025,2784.7,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,EL,GRC,2024,10067.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,EL,GRC,2025,11854.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,ES,ESP,2024,43485.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,ES,ESP,2025,49632.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,FI,FIN,2024,12246.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,FI,FIN,2025,12487.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,FR,FRA,2024,127529.8,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,FR,FRA,2025,131648.8,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,HR,HRV,2024,4483.7,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,HR,HRV,2025,5594.2,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,HU,HUN,2024,8999.3,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,HU,HUN,2025,8325.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,IE,IRL,2024,14279.6,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,IE,IRL,2025,17306.8,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,IT,ITA,2024,79108.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,IT,ITA,2025,86716.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,LT,LTU,2024,3326.5,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,LT,LTU,2025,3446.9,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,LU,LUX,2024,4018.1,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,LU,LUX,2025,4512.4,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,LV,LVA,2024,2560.7,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,LV,LVA,2025,2711.9,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,MT,MLT,2024,743.8,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,MT,MLT,2025,761.5,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,NL,NLD,2024,36342.0,p
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,NL,NLD,2025,40721.0,p
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,PL,POL,2024,40958.5,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,PL,POL,2025,48072.7,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,PT,PRT,2024,7880.8,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,PT,PRT,2025,9167.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,RO,ROU,2024,20743.9,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,RO,ROU,2025,22878.3,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,SE,SWE,2024,30842.5,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,SE,SWE,2025,34746.5,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,SI,SVN,2024,3461.6,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,SI,SVN,2025,3939.7,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,SK,SVK,2024,4625.0,
+core_nominal_public_investment,core LP input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P51G,SK,SVK,2025,6192.0,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,AT,AUT,2024,132.55,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,AT,AUT,2025,135.599,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,BE,BEL,2024,129.01,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,BE,BEL,2025,131.363,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,BG,BGR,2024,172.193,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,BG,BGR,2025,188.153,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,CY,CYP,2024,123.212,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,CY,CYP,2025,126.048,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,CZ,CZE,2024,150.164,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,CZ,CZE,2025,157.824,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,DE,DEU,2024,139.468,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,DE,DEU,2025,143.224,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,DK,DNK,2024,123.059,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,DK,DNK,2025,124.904,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,EE,EST,2024,134.721,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,EE,EST,2025,138.221,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,EL,GRC,2024,110.428,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,EL,GRC,2025,111.98,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,ES,ESP,2024,125.052,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,ES,ESP,2025,127.027,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,FI,FIN,2024,126.56,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,FI,FIN,2025,126.416,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,FR,FRA,2024,121.43,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,FR,FRA,2025,122.783,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,HR,HRV,2024,141.766,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,HR,HRV,2025,147.686,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,HU,HUN,2024,162.078,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,HU,HUN,2025,167.353,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,IE,IRL,2024,133.971,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,IE,IRL,2025,136.698,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,IT,ITA,2024,114.558,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,IT,ITA,2025,115.23,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,LT,LTU,2024,140.485,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,LT,LTU,2025,141.977,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,LU,LUX,2024,142.215,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,LU,LUX,2025,144.545,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,LV,LVA,2024,142.441,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,LV,LVA,2025,144.88,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,MT,MLT,2024,133.745,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,MT,MLT,2025,136.621,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,NL,NLD,2024,131.258,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,NL,NLD,2025,136.129,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,PL,POL,2024,128.116,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,PL,POL,2025,132.246,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,PT,PRT,2024,136.561,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,PT,PRT,2025,141.39,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,RO,ROU,2024,161.04,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,RO,ROU,2025,169.422,p
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,SE,SWE,2024,110.378,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,SE,SWE,2025,115.5,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,SI,SVN,2024,137.267,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,SI,SVN,2025,139.227,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,SK,SVK,2024,131.723,
+core_public_investment_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=P51G,SK,SVK,2025,136.085,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,AT,AUT,2024,129.963,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,AT,AUT,2025,134.063,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,BE,BEL,2024,128.833,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,BE,BEL,2025,132.127,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,BG,BGR,2024,178.033,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,BG,BGR,2025,191.231,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,CY,CYP,2024,121.022,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,CY,CYP,2025,122.368,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,CZ,CZE,2024,159.526,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,CZ,CZE,2025,168.019,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,DE,DEU,2024,130.622,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,DE,DEU,2025,134.553,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,DK,DNK,2024,119.762,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,DK,DNK,2025,121.684,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,EE,EST,2024,160.454,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,EE,EST,2025,166.62,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,EL,GRC,2024,117.44,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,EL,GRC,2025,120.702,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,ES,ESP,2024,123.823,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,ES,ESP,2025,127.432,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,FI,FIN,2024,120.883,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,FI,FIN,2025,122.674,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,FR,FRA,2024,119.09,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,FR,FRA,2025,120.49,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,HR,HRV,2024,139.529,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,HR,HRV,2025,146.042,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,HU,HUN,2024,144.633,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,HU,HUN,2025,152.749,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,IE,IRL,2024,122.493,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,IE,IRL,2025,123.743,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,IT,ITA,2024,120.097,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,IT,ITA,2025,122.491,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,LT,LTU,2024,158.007,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,LT,LTU,2025,163.75,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,LU,LUX,2024,135.612,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,LU,LUX,2025,139.976,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,LV,LVA,2024,147.592,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,LV,LVA,2025,152.941,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,MT,MLT,2024,130.797,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,MT,MLT,2025,133.645,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,NL,NLD,2024,135.138,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,NL,NLD,2025,139.624,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,PL,POL,2024,143.438,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,PL,POL,2025,149.884,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,PT,PRT,2024,132.649,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,PT,PRT,2025,137.852,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,RO,ROU,2024,165.325,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,RO,ROU,2025,176.482,p
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,SE,SWE,2024,107.987,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,SE,SWE,2025,112.933,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,SI,SVN,2024,134.537,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,SI,SVN,2025,139.185,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,SK,SVK,2024,134.729,
+core_gdp_deflator,core LP input,nama_10_gdp,freq=A&unit=PD15_EUR&na_item=B1GQ,SK,SVK,2025,140.37,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,AT,AUT,2024,80.0,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,AT,AUT,2025,81.5,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,BE,BEL,2024,103.9,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,BE,BEL,2025,107.9,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,BG,BGR,2024,23.8,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,BG,BGR,2025,29.9,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,CY,CYP,2024,62.7,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,CY,CYP,2025,55.0,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,CZ,CZE,2024,43.3,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,CZ,CZE,2025,44.3,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,DE,DEU,2024,62.2,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,DE,DEU,2025,63.5,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,DK,DNK,2024,30.5,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,DK,DNK,2025,27.9,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,EE,EST,2024,23.5,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,EE,EST,2025,24.1,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,EL,GRC,2024,154.2,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,EL,GRC,2025,146.1,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,ES,ESP,2024,101.6,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,ES,ESP,2025,100.7,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,FI,FIN,2024,82.4,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,FI,FIN,2025,88.5,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,FR,FRA,2024,112.6,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,FR,FRA,2025,115.6,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,HR,HRV,2024,57.4,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,HR,HRV,2025,56.3,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,HU,HUN,2024,73.5,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,HU,HUN,2025,74.6,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,IE,IRL,2024,38.3,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,IE,IRL,2025,32.9,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,IT,ITA,2024,134.7,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,IT,ITA,2025,137.1,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,LT,LTU,2024,38.0,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,LT,LTU,2025,39.5,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,LU,LUX,2024,26.3,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,LU,LUX,2025,26.5,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,LV,LVA,2024,46.2,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,LV,LVA,2025,46.9,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,MT,MLT,2024,45.9,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,MT,MLT,2025,46.4,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,NL,NLD,2024,43.8,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,NL,NLD,2025,44.4,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,PL,POL,2024,54.8,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,PL,POL,2025,59.7,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,PT,PRT,2024,93.5,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,PT,PRT,2025,89.7,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,RO,ROU,2024,54.8,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,RO,ROU,2025,59.3,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,SE,SWE,2024,34.2,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,SE,SWE,2025,35.1,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,SI,SVN,2024,66.4,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,SI,SVN,2025,65.7,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,SK,SVK,2024,59.7,
+core_government_debt,state/control candidate,gov_10dd_edpt1,freq=A&unit=PC_GDP&sector=S13&na_item=GD,SK,SVK,2025,61.4,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,AT,AUT,2024,275099.5,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,AT,AUT,2025,280518.7,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,BE,BEL,2024,491708.5,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,BE,BEL,2025,484401.0,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,BG,BGR,2024,59057.2,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,BG,BGR,2025,58865.9,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,CY,CYP,2024,33734.1,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,CY,CYP,2025,35598.4,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,CZ,CZE,2024,220888.9,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,CZ,CZE,2025,232020.6,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,DE,DEU,2024,1793668.0,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,DE,DEU,2025,1807398.0,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,DK,DNK,2024,278612.4,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,DK,DNK,2025,287740.9,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,EE,EST,2024,30152.6,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,EE,EST,2025,32615.1,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,EL,GRC,2024,99693.5,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,EL,GRC,2025,98004.8,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,ES,ESP,2024,590793.0,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,ES,ESP,2025,618130.0,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,FI,FIN,2024,115650.0,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,FI,FIN,2025,118756.0,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,FR,FRA,2024,989546.9,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,FR,FRA,2025,994800.6,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,HR,HRV,2024,43073.8,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,HR,HRV,2025,44602.2,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,HU,HUN,2024,157086.7,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,HU,HUN,2025,158940.0,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,IE,IRL,2024,810337.0,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,IE,IRL,2025,894582.4,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,IT,ITA,2024,712028.3,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,IT,ITA,2025,727701.8,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,LT,LTU,2024,58410.4,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,LT,LTU,2025,61494.8,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,LU,LUX,2024,165063.7,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,LU,LUX,2025,170558.3,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,LV,LVA,2024,26368.5,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,LV,LVA,2025,26922.8,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,MT,MLT,2024,27412.7,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,MT,MLT,2025,29273.8,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,NL,NLD,2024,925247.0,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,NL,NLD,2025,951461.0,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,PL,POL,2024,442878.2,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,PL,POL,2025,461553.9,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,PT,PRT,2024,132778.3,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,PT,PRT,2025,133927.9,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,RO,ROU,2024,125904.1,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,RO,ROU,2025,134861.0,p
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,SE,SWE,2024,304678.5,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,SE,SWE,2025,316017.1,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,SI,SVN,2024,54553.0,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,SI,SVN,2025,55430.0,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,SK,SVK,2024,111305.9,
+core_exports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P6,SK,SVK,2025,116370.6,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,AT,AUT,2024,262595.1,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,AT,AUT,2025,268292.9,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,BE,BEL,2024,494100.8,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,BE,BEL,2025,497354.6,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,BG,BGR,2024,56423.8,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,BG,BGR,2025,60069.4,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,CY,CYP,2024,32469.3,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,CY,CYP,2025,33536.5,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,CZ,CZE,2024,200838.3,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,CZ,CZE,2025,211742.9,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,DE,DEU,2024,1630146.0,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,DE,DEU,2025,1702054.0,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,DK,DNK,2024,238434.5,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,DK,DNK,2025,242551.3,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,EE,EST,2024,30032.5,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,EE,EST,2025,32213.5,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,EL,GRC,2024,112839.8,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,EL,GRC,2025,109250.4,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,ES,ESP,2024,524445.0,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,ES,ESP,2025,553611.0,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,FI,FIN,2024,114669.0,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,FI,FIN,2025,115228.0,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,FR,FRA,2024,999144.0,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,FR,FRA,2025,1006917.5,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,HR,HRV,2024,47051.4,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,HR,HRV,2025,49290.1,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,HU,HUN,2024,147873.3,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,HU,HUN,2025,149132.8,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,IE,IRL,2024,575092.8,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,IE,IRL,2025,637995.1,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,IT,ITA,2024,666280.6,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,IT,ITA,2025,684103.1,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,LT,LTU,2024,54096.0,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,LT,LTU,2025,58241.1,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,LU,LUX,2024,137660.0,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,LU,LUX,2025,142665.8,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,LV,LVA,2024,27011.9,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,LV,LVA,2025,28892.7,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,MT,MLT,2024,22962.9,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,MT,MLT,2025,24553.8,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,NL,NLD,2024,801439.0,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,NL,NLD,2025,819141.0,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,PL,POL,2024,409202.0,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,PL,POL,2025,435690.7,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,PT,PRT,2024,127046.9,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,PT,PRT,2025,131114.0,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,RO,ROU,2024,147153.7,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,RO,ROU,2025,154799.5,p
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,SE,SWE,2024,287756.6,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,SE,SWE,2025,303418.8,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,SI,SVN,2024,50388.6,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,SI,SVN,2025,51649.4,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,SK,SVK,2024,111626.0,
+core_imports,legacy trade-openness input,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=P7,SK,SVK,2025,116580.1,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,AT,AUT,2024,494087.6,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,AT,AUT,2025,512813.0,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,BE,BEL,2024,619914.3,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,BE,BEL,2025,642015.3,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,BG,BGR,2024,104767.2,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,BG,BGR,2025,116018.3,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,CY,CYP,2024,34770.2,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,CY,CYP,2025,36483.5,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,CZ,CZE,2024,320786.5,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,CZ,CZE,2025,346583.4,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,DE,DEU,2024,4328970.0,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,DE,DEU,2025,4469910.0,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,DK,DNK,2024,392400.7,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,DK,DNK,2025,410372.0,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,EE,EST,2024,39847.7,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,EE,EST,2025,41620.8,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,EL,GRC,2024,236736.0,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,EL,GRC,2025,248353.7,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,ES,ESP,2024,1594330.0,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,ES,ESP,2025,1687152.0,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,FI,FIN,2024,275993.0,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,FI,FIN,2025,280570.0,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,FR,FRA,2024,2919899.9,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,FR,FRA,2025,2979085.1,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,HR,HRV,2024,85905.2,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,HR,HRV,2025,92975.1,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,HU,HUN,2024,206156.2,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,HU,HUN,2025,218833.9,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,IE,IRL,2024,562794.2,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,IE,IRL,2025,638683.3,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,IT,ITA,2024,2202031.2,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,IT,ITA,2025,2258048.7,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,LT,LTU,2024,78996.2,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,LT,LTU,2025,84258.0,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,LU,LUX,2024,86180.3,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,LU,LUX,2025,89521.5,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,LV,LVA,2024,40652.3,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,LV,LVA,2025,43026.2,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,MT,MLT,2024,23136.7,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,MT,MLT,2025,24577.2,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,NL,NLD,2024,1121543.0,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,NL,NLD,2025,1179458.0,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,PL,POL,2024,852229.8,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,PL,POL,2025,922865.5,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,PT,PRT,2024,289784.3,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,PT,PRT,2025,306765.5,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,RO,ROU,2024,353633.1,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,RO,ROU,2025,380058.1,p
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,SE,SWE,2024,559072.5,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,SE,SWE,2025,593697.9,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,SI,SVN,2024,67418.1,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,SI,SVN,2025,70486.2,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,SK,SVK,2024,130207.5,
+core_nominal_gdp,denominator,nama_10_gdp,freq=A&unit=CP_MEUR&na_item=B1GQ,SK,SVK,2025,136754.3,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,AT,AUT,2024,211851.6,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,AT,AUT,2025,213338.8,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,BE,BEL,2024,351696.7,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,BE,BEL,2025,364840.1,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,BG,BGR,2024,26848.9,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,BG,BGR,2025,32456.5,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,CY,CYP,2024,19968.2,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,CY,CYP,2025,19785.9,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,CZ,CZE,2024,98054.4,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,CZ,CZE,2025,110883.8,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,DE,DEU,2024,2149475.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,DE,DEU,2025,2189066.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,DK,DNK,2024,336595.9,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,DK,DNK,2025,344921.5,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,EE,EST,2024,15244.5,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,EE,EST,2025,16459.2,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,EL,GRC,2024,92256.4,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,EL,GRC,2025,94319.1,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,ES,ESP,2024,696293.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,ES,ESP,2025,722828.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,FI,FIN,2024,176349.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,FI,FIN,2025,176424.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,FR,FRA,2024,1767688.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,FR,FRA,2025,1780372.0,p
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,HR,HRV,2024,25904.1,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,HR,HRV,2025,29147.6,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,HU,HUN,2024,34017.3,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,HU,HUN,2025,41345.1,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,IE,IRL,2024,133792.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,IT,ITA,2024,792133.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,IT,ITA,2025,811370.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,LT,LTU,2024,17268.5,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,LT,LTU,2025,19912.9,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,LU,LUX,2024,53806.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,LU,LUX,2025,54879.3,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,LV,LVA,2024,7812.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,LV,LVA,2025,8535.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,MT,MLT,2024,10798.1,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,MT,MLT,2025,11922.1,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,NL,NLD,2024,1057156.0,p
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,NL,NLD,2025,1105697.0,p
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,PL,POL,2024,193695.2,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,PL,POL,2025,204355.6,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,PT,PRT,2024,152303.4,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,PT,PRT,2025,165374.7,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,RO,ROU,2024,44223.1,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,RO,ROU,2025,46381.1,p
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,SE,SWE,2024,465132.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,SE,SWE,2025,505755.7,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,SI,SVN,2024,16293.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,SI,SVN,2025,17514.0,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,SK,SVK,2024,56404.5,
+core_household_credit,legacy liquidity input,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F4,SK,SVK,2025,60311.1,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,AT,AUT,2024,53830,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,AT,AUT,2025,55710,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,BE,BEL,2024,52310,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,BE,BEL,2025,53930,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,BG,BGR,2024,16260,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,BG,BGR,2025,18060,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,CY,CYP,2024,35670,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,CY,CYP,2025,36850,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,CZ,CZE,2024,29440,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,CZ,CZE,2025,31810,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,DE,DEU,2024,51830,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,DE,DEU,2025,53520,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,DK,DNK,2024,65650,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,DK,DNK,2025,68310,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,EE,EST,2024,28990,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,EE,EST,2025,30380,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,EL,GRC,2024,22480,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,EL,GRC,2025,23570,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,ES,ESP,2024,32630,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,ES,ESP,2025,34210,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,FI,FIN,2024,49100,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,FI,FIN,2025,49710,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,FR,FRA,2024,42590,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,FR,FRA,2025,43350,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,HR,HRV,2024,22200,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,HR,HRV,2025,23950,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,HU,HUN,2024,21560,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,HU,HUN,2025,23000,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,IE,IRL,2024,104510,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,IE,IRL,2025,116770,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,IT,ITA,2024,37350,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,IT,ITA,2025,38310,e
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,LT,LTU,2024,27350,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,LT,LTU,2025,29170,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,LU,LUX,2024,127030,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,LU,LUX,2025,130300,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,LV,LVA,2024,21800,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,LV,LVA,2025,23410,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,MT,MLT,2024,40640,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,MT,MLT,2025,42160,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,NL,NLD,2024,62330,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,NL,NLD,2025,65210,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,PL,POL,2024,22710,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,PL,POL,2025,24680,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,PT,PRT,2024,27100,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,PT,PRT,2025,28390,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,RO,ROU,2024,18550,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,RO,ROU,2025,19960,p
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,SE,SWE,2024,52590,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,SE,SWE,2025,55620,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,SI,SVN,2024,31700,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,SI,SVN,2025,33060,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,SK,SVK,2024,23850,
+core_gdp_per_capita_eur,legacy income input,nama_10_pc,freq=A&unit=CP_EUR_HAB&na_item=B1GQ,SK,SVK,2025,25060,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,AT,AUT,2024,5.2,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,AT,AUT,2025,5.7,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,BE,BEL,2024,5.7,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,BE,BEL,2025,6.2,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,BG,BGR,2024,4.2,b
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,BG,BGR,2025,3.5,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,CY,CYP,2024,4.9,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,CY,CYP,2025,4.4,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,CZ,CZE,2024,2.6,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,CZ,CZE,2025,2.8,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,DE,DEU,2024,3.4,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,DE,DEU,2025,3.8,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,DK,DNK,2024,6.2,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,DK,DNK,2025,6.4,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,EE,EST,2024,7.6,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,EE,EST,2025,7.5,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,EL,GRC,2024,10.1,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,EL,GRC,2025,8.9,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,ES,ESP,2024,11.4,d
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,ES,ESP,2025,10.5,d
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,FI,FIN,2024,8.4,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,FI,FIN,2025,9.7,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,FR,FRA,2024,7.4,d
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,FR,FRA,2025,7.7,d
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,HR,HRV,2024,5.0,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,HR,HRV,2025,4.9,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,HU,HUN,2024,4.5,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,HU,HUN,2025,4.4,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,IE,IRL,2024,4.3,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,IE,IRL,2025,4.7,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,IT,ITA,2024,6.5,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,IT,ITA,2025,6.1,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,LT,LTU,2024,7.1,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,LT,LTU,2025,6.9,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,LU,LUX,2024,6.4,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,LU,LUX,2025,6.5,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,LV,LVA,2024,6.9,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,LV,LVA,2025,6.9,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,MT,MLT,2024,3.2,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,MT,MLT,2025,3.1,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,NL,NLD,2024,3.7,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,NL,NLD,2025,3.9,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,PL,POL,2024,2.9,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,PL,POL,2025,3.1,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,PT,PRT,2024,6.5,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,PT,PRT,2025,6.0,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,RO,ROU,2024,5.4,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,RO,ROU,2025,6.1,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,SE,SWE,2024,8.4,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,SE,SWE,2025,8.8,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,SI,SVN,2024,3.7,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,SI,SVN,2025,3.9,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,SK,SVK,2024,5.3,
+core_unemployment,diagnostic/control input,une_rt_a,freq=A&age=Y15-74&unit=PC_ACT&sex=T,SK,SVK,2025,5.4,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,AT,AUT,2024,107089.6,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,AT,AUT,2025,112284.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,BE,BEL,2024,147157.6,p
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,BE,BEL,2025,153783.5,p
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,BG,BGR,2024,20699.2,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,BG,BGR,2025,24159.1,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,CY,CYP,2024,6400.7,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,CY,CYP,2025,6743.9,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,CZ,CZE,2024,63976.8,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,CZ,CZE,2025,69373.5,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,DE,DEU,2024,951782.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,DE,DEU,2025,1006393.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,DK,DNK,2024,90114.4,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,DK,DNK,2025,95278.4,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,EE,EST,2024,8382.8,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,EE,EST,2025,8930.4,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,EL,GRC,2024,44014.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,EL,GRC,2025,45833.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,ES,ESP,2024,307800.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,ES,ESP,2025,323970.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,FI,FIN,2024,72031.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,FI,FIN,2025,73138.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,FR,FRA,2024,705579.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,FR,FRA,2025,713444.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,HR,HRV,2024,19869.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,HR,HRV,2025,22573.4,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,HU,HUN,2024,41967.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,HU,HUN,2025,45554.4,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,IE,IRL,2024,68061.4,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,IE,IRL,2025,71802.4,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,IT,ITA,2024,398046.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,IT,ITA,2025,412111.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,LT,LTU,2024,14868.2,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,LT,LTU,2025,16284.8,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,LU,LUX,2024,16353.3,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,LU,LUX,2025,17651.7,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,LV,LVA,2024,8824.2,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,LV,LVA,2025,9854.7,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,MT,MLT,2024,3899.1,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,MT,MLT,2025,4299.1,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,NL,NLD,2024,288831.0,p
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,NL,NLD,2025,305134.0,p
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,PL,POL,2024,176655.9,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,PL,POL,2025,196680.7,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,PT,PRT,2024,48827.2,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,PT,PRT,2025,52299.5,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,RO,ROU,2024,65452.6,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,RO,ROU,2025,65760.2,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,SE,SWE,2024,147718.3,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,SE,SWE,2025,156358.9,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,SI,SVN,2024,13745.9,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,SI,SVN,2025,14965.7,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,SK,SVK,2024,27493.0,
+extra_nominal_government_consumption,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=P3,SK,SVK,2025,29251.1,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,AT,AUT,2024,250238.8,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,AT,AUT,2025,261543.1,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,BE,BEL,2024,308044.6,p
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,BE,BEL,2025,314736.4,p
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,BG,BGR,2024,37868.4,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,BG,BGR,2025,44258.1,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,CY,CYP,2024,14750.3,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,CY,CYP,2025,15921.7,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,CZ,CZE,2024,132070.9,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,CZ,CZE,2025,142264.5,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,DE,DEU,2024,2024422.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,DE,DEU,2025,2140194.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,DK,DNK,2024,203217.1,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,DK,DNK,2025,208798.9,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,EE,EST,2024,17058.6,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,EE,EST,2025,18080.6,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,EL,GRC,2024,117059.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,EL,GRC,2025,124165.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,ES,ESP,2024,673734.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,ES,ESP,2025,724554.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,FI,FIN,2024,147363.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,FI,FIN,2025,151659.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,FR,FRA,2024,1503590.1,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,FR,FRA,2025,1561626.1,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,HR,HRV,2024,39567.9,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,HR,HRV,2025,43752.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,HU,HUN,2024,86961.5,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,HU,HUN,2025,93224.6,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,IE,IRL,2024,149006.3,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,IE,IRL,2025,145053.5,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,IT,ITA,2024,1036025.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,IT,ITA,2025,1085928.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,LT,LTU,2024,30124.7,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,LT,LTU,2025,33202.2,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,LU,LUX,2024,41145.7,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,LU,LUX,2025,42171.4,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,LV,LVA,2024,17687.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,LV,LVA,2025,18739.2,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,MT,MLT,2024,7817.6,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,MT,MLT,2025,8553.8,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,NL,NLD,2024,488436.0,p
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,NL,NLD,2025,510300.0,p
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,PL,POL,2024,364598.2,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,PL,POL,2025,402367.9,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,PT,PRT,2024,124667.8,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,PT,PRT,2025,133000.0,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,RO,ROU,2024,120351.4,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,RO,ROU,2025,134723.1,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,SE,SWE,2024,273665.9,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,SE,SWE,2025,288376.8,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,SI,SVN,2024,30739.7,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,SI,SVN,2025,33182.3,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,SK,SVK,2024,54789.1,
+extra_government_revenue,core fiscal ratio input,gov_10a_main,freq=A&unit=MIO_EUR&sector=S13&na_item=TR,SK,SVK,2025,59481.2,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,AT,AUT,2024,47527.5,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,AT,AUT,2025,48882.4,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,BE,BEL,2024,46587.9,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,BE,BEL,2025,47738.3,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,BG,BGR,2024,26324.2,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,BG,BGR,2025,28341.5,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,CY,CYP,2024,39456.3,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,CY,CYP,2025,40874.5,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,CZ,CZE,2024,36175.9,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,CZ,CZE,2025,38452.9,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,DE,DEU,2024,46387.1,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,DE,DEU,2025,47929.8,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,DK,DNK,2024,50767.5,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,DK,DNK,2025,52921.6,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,EE,EST,2024,31555.3,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,EE,EST,2025,32941.9,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,EL,GRC,2024,27373.1,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,EL,GRC,2025,28476.2,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,ES,ESP,2024,36413.0,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,ES,ESP,2025,38174.3,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,FI,FIN,2024,40848.2,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,FI,FIN,2025,42034.5,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,FR,FRA,2024,39216.6,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,FR,FRA,2025,40702.7,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,HR,HRV,2024,31053.0,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,HR,HRV,2025,32449.1,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,HU,HUN,2024,30445.4,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,HU,HUN,2025,31704.2,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,IE,IRL,2024,88476.9,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,IE,IRL,2025,98782.9,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,IT,ITA,2024,39068.4,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,IT,ITA,2025,39917.4,e
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,LT,LTU,2024,34935.8,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,LT,LTU,2025,36591.9,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,LU,LUX,2024,97689.4,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,LU,LUX,2025,99347.9,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,LV,LVA,2024,27536.4,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,LV,LVA,2025,29528.0,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,MT,MLT,2024,43913.8,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,MT,MLT,2025,45647.4,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,NL,NLD,2024,53449.2,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,NL,NLD,2025,55631.1,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,PL,POL,2024,31462.9,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,PL,POL,2025,33846.0,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,PT,PRT,2024,32937.0,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,PT,PRT,2025,33834.3,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,RO,ROU,2024,30769.4,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,RO,ROU,2025,32536.2,p
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,SE,SWE,2024,44414.4,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,SE,SWE,2025,45776.6,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,SI,SVN,2024,36118.5,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,SI,SVN,2025,37703.5,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,SK,SVK,2024,29808.1,
+replacement_gdp_pc_current_pps,real PPP income construction,nama_10_pc,freq=A&unit=CP_PPS_EU27_2020_HAB&na_item=B1GQ,SK,SVK,2025,31107.7,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,AT,AUT,2024,105.827,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,AT,AUT,2025,106.156,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,BE,BEL,2024,110.505,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,BE,BEL,2025,111.084,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,BG,BGR,2024,119.986,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,BG,BGR,2025,124.038,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,CY,CYP,2024,121.601,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,CY,CYP,2025,124.226,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,CZ,CZE,2024,104.47,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,CZ,CZE,2025,107.176,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,DE,DEU,2024,102.612,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,DE,DEU,2025,102.864,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,DK,DNK,2024,108.622,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,DK,DNK,2025,111.226,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,EE,EST,2024,100.438,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,EE,EST,2025,101.371,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,EL,GRC,2024,121.446,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,EL,GRC,2025,123.889,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,ES,ESP,2024,116.567,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,ES,ESP,2025,118.752,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,FI,FIN,2024,100.863,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,FI,FIN,2025,100.628,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,FR,FRA,2024,111.171,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,FR,FRA,2025,111.827,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,HR,HRV,2024,131.496,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,HR,HRV,2025,135.507,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,HU,HUN,2024,112.812,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,HU,HUN,2025,113.958,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,IE,IRL,2024,116.85,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,IE,IRL,2025,129.24,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,IT,ITA,2024,117.088,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,IT,ITA,2025,117.739,e
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,LT,LTU,2024,110.1,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,LT,LTU,2025,113.295,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,LU,LUX,2024,98.834,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,LU,LUX,2025,98.221,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,LV,LVA,2024,109.998,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,LV,LVA,2025,113.989,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,MT,MLT,2024,123.71,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,MT,MLT,2025,125.583,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,NL,NLD,2024,108.683,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,NL,NLD,2025,110.053,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,PL,POL,2024,115.376,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,PL,POL,2025,120.005,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,PT,PRT,2024,115.564,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,PT,PRT,2025,116.526,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,RO,ROU,2024,114.932,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,RO,ROU,2025,115.811,p
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,SE,SWE,2024,104.608,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,SE,SWE,2025,105.793,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,SI,SVN,2024,114.616,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,SI,SVN,2025,115.554,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,SK,SVK,2024,110.612,
+replacement_gdp_pc_real_index_2020,real PPP income construction,nama_10_pc,freq=A&unit=CLV_I20_HAB&na_item=B1GQ,SK,SVK,2025,111.56,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,AT,AUT,2024,922515.9,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,AT,AUT,2025,968605.9,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,BE,BEL,2024,1651405.4,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,BE,BEL,2025,1723860.6,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,BG,BGR,2024,124078.8,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,BG,BGR,2025,135750.5,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,CY,CYP,2024,62067.2,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,CY,CYP,2025,65061.6,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,CZ,CZE,2024,471595.6,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,CZ,CZE,2025,527386.3,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,DE,DEU,2024,9451812.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,DE,DEU,2025,9897033.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,DK,DNK,2024,1496710.2,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,DK,DNK,2025,1534105.8,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,EE,EST,2024,58656.3,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,EE,EST,2025,61811.8,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,EL,GRC,2024,350451.1,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,EL,GRC,2025,401926.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,ES,ESP,2024,3144350.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,ES,ESP,2025,3436486.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,FI,FIN,2024,437041.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,FI,FIN,2025,466533.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,FR,FRA,2024,7087946.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,FR,FRA,2025,7308824.0,p
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,HR,HRV,2024,108774.7,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,HR,HRV,2025,118751.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,HU,HUN,2024,273396.6,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,HU,HUN,2025,318675.4,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,IE,IRL,2024,564067.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,IT,ITA,2024,6018185.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,IT,ITA,2025,6410809.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,LT,LTU,2024,81382.2,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,LT,LTU,2025,90052.8,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,LU,LUX,2024,126745.4,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,LU,LUX,2025,133108.5,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,LV,LVA,2024,46445.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,LV,LVA,2025,50661.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,MT,MLT,2024,47039.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,MT,MLT,2025,50017.4,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,NL,NLD,2024,3360229.0,p
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,NL,NLD,2025,3290022.0,p
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,PL,POL,2024,817160.9,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,PL,POL,2025,941798.2,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,PT,PRT,2024,589269.9,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,PT,PRT,2025,627751.7,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,RO,ROU,2024,261046.2,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,RO,ROU,2025,268428.0,p
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,SE,SWE,2024,1955831.7,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,SE,SWE,2025,2196462.3,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,SI,SVN,2024,87111.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,SI,SVN,2025,94640.0,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,SK,SVK,2024,117485.2,
+replacement_household_total_financial_assets,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=ASS&na_item=F,SK,SVK,2025,127089.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,AT,AUT,2024,216925.7,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,AT,AUT,2025,218884.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,BE,BEL,2024,360586.8,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,BE,BEL,2025,374016.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,BG,BGR,2024,31536.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,BG,BGR,2025,37248.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,CY,CYP,2024,24721.9,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,CY,CYP,2025,24974.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,CZ,CZE,2024,106790.1,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,CZ,CZE,2025,118174.8,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,DE,DEU,2024,2154837.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,DE,DEU,2025,2194584.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,DK,DNK,2024,355232.9,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,DK,DNK,2025,365172.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,EE,EST,2024,17057.8,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,EE,EST,2025,18467.6,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,EL,GRC,2024,110790.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,EL,GRC,2025,113991.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,ES,ESP,2024,761443.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,ES,ESP,2025,791628.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,FI,FIN,2024,209378.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,FI,FIN,2025,207968.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,FR,FRA,2024,2103667.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,FR,FRA,2025,2114002.0,p
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,HR,HRV,2024,27906.3,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,HR,HRV,2025,31356.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,HU,HUN,2024,41161.7,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,HU,HUN,2025,49682.4,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,IE,IRL,2024,142063.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,IT,ITA,2024,1042934.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,IT,ITA,2025,1068136.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,LT,LTU,2024,23706.4,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,LT,LTU,2025,26536.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,LU,LUX,2024,53808.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,LU,LUX,2025,54881.8,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,LV,LVA,2024,9150.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,LV,LVA,2025,9958.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,MT,MLT,2024,12816.7,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,MT,MLT,2025,14171.8,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,NL,NLD,2024,1097619.0,p
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,NL,NLD,2025,1146662.0,p
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,PL,POL,2024,198564.9,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,PL,POL,2025,209531.2,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,PT,PRT,2024,198846.8,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,PT,PRT,2025,214443.9,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,RO,ROU,2024,64295.3,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,RO,ROU,2025,66046.0,p
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,SE,SWE,2024,485473.8,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,SE,SWE,2025,525423.6,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,SI,SVN,2024,18543.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,SI,SVN,2025,19860.0,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,SK,SVK,2024,59631.5,
+replacement_household_total_financial_liabilities,household net financial worth construction,nasa_10_f_bs,freq=A&unit=MIO_EUR&co_nco=NCO&sector=S14_S15&finpos=LIAB&na_item=F,SK,SVK,2025,60337.7,
