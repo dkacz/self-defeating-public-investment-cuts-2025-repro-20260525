@@ -4,7 +4,7 @@ Date: 2026-05-25
 
 ## Scope
 
-This package exposes the current 2025 article, the reader-facing executed notebook, source data, result tables, figures, article renders and current annotation-accounting files. It is a public delivery package, not a history of the internal repair process.
+This package exposes the current 2025 article, the reader-facing executed notebook, source data, result tables, figures, article renders and current annotation-accounting files. It is a current-state public delivery package.
 
 ## Notebook
 

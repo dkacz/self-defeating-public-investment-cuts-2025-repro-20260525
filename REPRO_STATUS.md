@@ -1,6 +1,6 @@
 # Repro status
 
-Current status: public notebook and package synchronized; final closure review remains open.
+Current status: public notebook, package and paper-number checks synchronized.
 
 The public notebook is rendered directly on the landing page and is also available as a raw notebook file. It has 589 cells, 273 code cells, a maximum of 10 nonblank code lines per code cell, no multi-output code cells and a visible paper-number consistency section.
 

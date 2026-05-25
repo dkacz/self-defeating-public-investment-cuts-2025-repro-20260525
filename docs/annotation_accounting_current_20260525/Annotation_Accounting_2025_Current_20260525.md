@@ -6,7 +6,7 @@ Ten dokument jest obecna nota do czytania na Boox. Pokazuje, czy uwagi z anotacj
 
 ## Najkrotszy wynik
 
-Rozliczenie obejmuje 40 pozycji. Obecna wersja 2025 nie wymaga zmiany w tych pozycjach: tekst, notebook, tabele, figury i pliki liczbowe odnosza sie do tego samego stanu.
+Rozliczenie widoczne dla czytelnika obejmuje 27 pozycji: 11 dotyczacych notebooka i odtwarzalnosci oraz 16 sprawdzonych punktowo. Obecna wersja 2025 nie wymaga zmiany w tych pozycjach: tekst, notebook, tabele, figury i pliki liczbowe odnosza sie do tego samego stanu.
 
 ## Zgodnosc notebooka z paperem
 
@@ -31,7 +31,7 @@ Kazda pozycja zachowuje sens pierwotnej uwagi, obecny fragment albo dowod oraz w
 
 **Obecny fragment albo dowód do kontroli:**
 
-> Cała ostatnia runda anotacji została ponownie rozpisana po zmianie liczb i tekstu. Dowód do sprawdzenia: obecna tabela rozliczeniowa ma 40 pozycji i nie zamyka automatycznie żadnej z nich.
+> Cała ostatnia runda anotacji została ponownie rozpisana w obecnej wersji tekstu i liczb. Dowód do sprawdzenia: obecna nota rozliczeniowa pokazuje widoczne pozycje kontroli i opisuje aktualny stan.
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
@@ -49,7 +49,7 @@ Notebook jest obecnym zapisem obliczen i zgadza sie z liczbami, tabelami, figura
 
 **Obecny fragment albo dowód do kontroli:**
 
-> Aktualny notebook ma być główną powierzchnią kontroli estymacji. Pokazuje źródła, braki danych, zmienne stanu, próbę, równania, macierze regresji, usuwanie efektów stałych, współczynniki, kowariancje, p-wartości, kontrasty dla profilu Polski, ścieżki odpowiedzi, ścieżki długu, tabele, wykresy i ślad liczb artykułu. Ma też kontrolę długości komórek, żeby obliczenia nie były ukryte w bardzo długich blokach kodu. Po naprawie estymacji i ponownym renderze notebook pokazuje także, że średnia equal-weight dla odpowiedzi jest liczona z trzech polskich ścieżek, bez EU27 benchmarku.
+> Aktualny notebook ma być główną powierzchnią kontroli estymacji. Pokazuje źródła, braki danych, zmienne stanu, próbę, równania, macierze regresji, usuwanie efektów stałych, współczynniki, kowariancje, p-wartości, kontrasty dla profilu Polski, ścieżki odpowiedzi, ścieżki długu, tabele, wykresy i ślad liczb artykułu. Ma też kontrolę długości komórek, żeby obliczenia nie były ukryte w bardzo długich blokach kodu. Obecny notebook pokazuje także, że średnia equal-weight dla odpowiedzi jest liczona z trzech polskich ścieżek, bez EU27 benchmarku.
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
@@ -121,7 +121,7 @@ Notebook jest obecnym zapisem obliczen i zgadza sie z liczbami, tabelami, figura
 
 **Obecny fragment albo dowód do kontroli:**
 
-> Appendix D opisuje p-wartości jako punktowe diagnostyki horyzontów, nie jako test całej ścieżki. Kontrola ma jeszcze sprawdzić aktualny tekst, źródła i tabele po zmianie liczb.
+> Appendix D opisuje p-wartości jako punktowe diagnostyki horyzontów, nie jako test całej ścieżki. Kontrola ma jeszcze sprawdzić aktualny tekst, źródła i tabele w obecnej wersji liczb.
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
@@ -236,7 +236,7 @@ Notebook jest obecnym zapisem obliczen i zgadza sie z liczbami, tabelami, figura
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -255,7 +255,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -274,7 +274,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -293,7 +293,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -312,7 +312,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -331,7 +331,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -350,7 +350,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -369,7 +369,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -388,7 +388,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -407,7 +407,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -426,7 +426,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -445,7 +445,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -464,7 +464,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -483,7 +483,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -503,7 +503,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
@@ -522,7 +522,7 @@ Obecny render nie wymaga zmiany; pozycja zostaje w rozliczeniu jako zapis kontro
 
 **Dlaczego ta pozycja wymagala kontroli?**
 
-Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc starszej odpowiedzi bez sprawdzenia obecnego renderu.
+Ta czesc artykulu nie byla glownym miejscem zmiany liczbowej, ale wymagala swiezej kontroli, zeby nie przeniesc obecnego stanu bez sprawdzenia obecnego renderu.
 
 **Wynik obecnej kontroli:**
 
