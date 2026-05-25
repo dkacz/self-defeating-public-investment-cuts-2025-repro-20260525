@@ -9,7 +9,7 @@ Date: 2026-05-25
 ## Public server
 
 - Repository: `https://github.com/dkacz/self-defeating-public-investment-cuts-2025-repro-20260525`
-- Commit: `e989445e0c78c903baaf533d00f8e8cdabe68733`
+- Publication commits: initial publication `e989445e0c78c903baaf533d00f8e8cdabe68733`; current Boox/accounting refresh `2289f87c315c6ecae23fce3ce4c21d76d23bade0`. This QA file may be served from a later documentation-only commit.
 - GitHub Pages source: `main:/docs`
 - GitHub Pages status: `built`
 - Landing page: HTTP `200`

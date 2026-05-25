@@ -24,7 +24,7 @@ This package exposes the current accepted 2025 notebook and article layer after 
 ## Publication QA
 
 - GitHub repository: `https://github.com/dkacz/self-defeating-public-investment-cuts-2025-repro-20260525`
-- Public repository commit: `e989445e0c78c903baaf533d00f8e8cdabe68733`
+- Public repository commits: initial publication `e989445e0c78c903baaf533d00f8e8cdabe68733`; current Boox/accounting refresh `2289f87c315c6ecae23fce3ce4c21d76d23bade0`.
 - GitHub Pages source: `main:/docs`
 - GitHub Pages status: `built`
 - Landing page HTTP: `200`
