@@ -1,47 +1,47 @@
-| Path                                  | Feature set                           | Horizon | K_Y(h)             | K_G(h)             | K_Y(h)/K_G(h)      |
-| ------------------------------------- | ------------------------------------- | ------- | ------------------ | ------------------ | ------------------ |
-| linear_benchmark                      | EU27 linear benchmark                 | 0       | 1.1623801975595205 | 1.0                | 1.1623801975595205 |
-| linear_benchmark                      | EU27 linear benchmark                 | 1       | 2.1002721132853868 | 1.0054697700296258 | 2.0888466027412274 |
-| linear_benchmark                      | EU27 linear benchmark                 | 2       | 2.2383649175593905 | 0.8408173197132758 | 2.6621298884788525 |
-| linear_benchmark                      | EU27 linear benchmark                 | 3       | 1.985254156106146  | 0.7188560309898576 | 2.7616853313068415 |
-| linear_benchmark                      | EU27 linear benchmark                 | 4       | 1.801222880875836  | 0.6865341688727333 | 2.623646371211771  |
-| linear_benchmark                      | EU27 linear benchmark                 | 5       | 1.8315961407980101 | 0.6892216075482013 | 2.657485082793078  |
-| linear_benchmark                      | EU27 linear benchmark                 | 6       | 1.8634345252801372 | 0.669380104092791  | 2.7838212009686853 |
-| linear_benchmark                      | EU27 linear benchmark                 | 7       | 2.0000012220822554 | 0.7094645743704137 | 2.819029017561698  |
-| linear_benchmark                      | EU27 linear benchmark                 | 8       | 2.2254327520248918 | 0.7760567968690756 | 2.867615825289051  |
-| trade                                 | investment import content             | 0       | 1.3791126873307011 | 1.0                | 1.3791126873307011 |
-| trade                                 | investment import content             | 1       | 2.288538112522518  | 1.0135057904552343 | 2.258041477488333  |
-| trade                                 | investment import content             | 2       | 2.267273587515271  | 0.837137215841818  | 2.708365539853965  |
-| trade                                 | investment import content             | 3       | 1.8267849878056894 | 0.7000075138793533 | 2.609664827284321  |
-| trade                                 | investment import content             | 4       | 1.4742697449229902 | 0.6395038840197022 | 2.3053335276968703 |
-| trade                                 | investment import content             | 5       | 1.278603640593463  | 0.6338620589901969 | 2.0171638646906893 |
-| trade                                 | investment import content             | 6       | 1.2575975480558834 | 0.5983857098276658 | 2.101650369321269  |
-| trade                                 | investment import content             | 7       | 1.4831727244916761 | 0.6545902897280956 | 2.265803125658582  |
-| trade                                 | investment import content             | 8       | 1.7978399426675131 | 0.726559047560126  | 2.4744581306982263 |
-| liq                                   | household net financial worth         | 0       | 1.1796701513717092 | 1.0                | 1.1796701513717092 |
-| liq                                   | household net financial worth         | 1       | 2.256513503813582  | 1.031232234010217  | 2.1881720037382246 |
-| liq                                   | household net financial worth         | 2       | 2.368669964604744  | 0.84552976059785   | 2.8014034218380734 |
-| liq                                   | household net financial worth         | 3       | 1.97035716076785   | 0.717650617918337  | 2.7455660339054586 |
-| liq                                   | household net financial worth         | 4       | 1.7178851172438727 | 0.693733578261156  | 2.47628941581544   |
-| liq                                   | household net financial worth         | 5       | 1.7623810316956836 | 0.6954510425310764 | 2.5341554242000166 |
-| liq                                   | household net financial worth         | 6       | 1.7729350045413002 | 0.6792598331578841 | 2.6100984012243327 |
-| liq                                   | household net financial worth         | 7       | 1.934341913608627  | 0.7153198435467549 | 2.704163642403126  |
-| liq                                   | household net financial worth         | 8       | 2.235753747310901  | 0.7671883315182209 | 2.9142176118430725 |
-| debt                                  | public debt                           | 0       | 1.1338257952708586 | 1.0                | 1.1338257952708586 |
-| debt                                  | public debt                           | 1       | 1.9761920894860576 | 1.0050366966301165 | 1.9662884908702545 |
-| debt                                  | public debt                           | 2       | 2.025439225750681  | 0.8274386575469488 | 2.447842153949349  |
-| debt                                  | public debt                           | 3       | 1.6871836555926363 | 0.6946801915470011 | 2.4287199723305823 |
-| debt                                  | public debt                           | 4       | 1.4470297016882996 | 0.6546901851380567 | 2.2102510997368316 |
-| debt                                  | public debt                           | 5       | 1.4628645225588748 | 0.6608877168152165 | 2.2134842051662615 |
-| debt                                  | public debt                           | 6       | 1.48093252919559   | 0.6547914733738086 | 2.2616857265490875 |
-| debt                                  | public debt                           | 7       | 1.5841835943856393 | 0.6892836721496228 | 2.298304251782364  |
-| debt                                  | public debt                           | 8       | 1.7813435168502745 | 0.7526616391748677 | 2.3667255299514616 |
-| equal_weight_retained_single_features | equal-weight retained single features | 0       | 1.2308695446577562 | 1.0                | 1.2308695446577562 |
-| equal_weight_retained_single_features | equal-weight retained single features | 1       | 2.173747901940719  | 1.0165915736985225 | 2.1382706272414564 |
-| equal_weight_retained_single_features | equal-weight retained single features | 2       | 2.2204609259568984 | 0.836701877995539  | 2.6538256747748536 |
-| equal_weight_retained_single_features | equal-weight retained single features | 3       | 1.828108601388725  | 0.7041127744482304 | 2.59632926390421   |
-| equal_weight_retained_single_features | equal-weight retained single features | 4       | 1.5463948546183877 | 0.6626425491396383 | 2.333678778439742  |
-| equal_weight_retained_single_features | equal-weight retained single features | 5       | 1.5012830649493403 | 0.66340027277883   | 2.2630124323898957 |
-| equal_weight_retained_single_features | equal-weight retained single features | 6       | 1.5038216939309246 | 0.6441456721197861 | 2.334598770154078  |
-| equal_weight_retained_single_features | equal-weight retained single features | 7       | 1.667232744161981  | 0.6863979351414912 | 2.4289594400051695 |
-| equal_weight_retained_single_features | equal-weight retained single features | 8       | 1.9383124022762297 | 0.748803006084405  | 2.5885478377176057 |
+| Feature set | Horizon | K_Y(h) | K_G(h) | K_Y(h)/K_G(h) |
+| --- | --- | --- | --- | --- |
+| EU27 benchmark | 0 | 1.162380 | 1.000000 | 1.162380 |
+| EU27 benchmark | 1 | 2.100272 | 1.005470 | 2.088847 |
+| EU27 benchmark | 2 | 2.238365 | 0.840817 | 2.662130 |
+| EU27 benchmark | 3 | 1.985254 | 0.718856 | 2.761685 |
+| EU27 benchmark | 4 | 1.801223 | 0.686534 | 2.623646 |
+| EU27 benchmark | 5 | 1.831596 | 0.689222 | 2.657485 |
+| EU27 benchmark | 6 | 1.863435 | 0.669380 | 2.783821 |
+| EU27 benchmark | 7 | 2.000001 | 0.709465 | 2.819029 |
+| EU27 benchmark | 8 | 2.225433 | 0.776057 | 2.867616 |
+| Investment import content | 0 | 1.379113 | 1.000000 | 1.379113 |
+| Investment import content | 1 | 2.288538 | 1.013506 | 2.258041 |
+| Investment import content | 2 | 2.267274 | 0.837137 | 2.708366 |
+| Investment import content | 3 | 1.826785 | 0.700008 | 2.609665 |
+| Investment import content | 4 | 1.474270 | 0.639504 | 2.305334 |
+| Investment import content | 5 | 1.278604 | 0.633862 | 2.017164 |
+| Investment import content | 6 | 1.257598 | 0.598386 | 2.101650 |
+| Investment import content | 7 | 1.483173 | 0.654590 | 2.265803 |
+| Investment import content | 8 | 1.797840 | 0.726559 | 2.474458 |
+| Household net worth | 0 | 1.179670 | 1.000000 | 1.179670 |
+| Household net worth | 1 | 2.256514 | 1.031232 | 2.188172 |
+| Household net worth | 2 | 2.368670 | 0.845530 | 2.801403 |
+| Household net worth | 3 | 1.970357 | 0.717651 | 2.745566 |
+| Household net worth | 4 | 1.717885 | 0.693734 | 2.476289 |
+| Household net worth | 5 | 1.762381 | 0.695451 | 2.534155 |
+| Household net worth | 6 | 1.772935 | 0.679260 | 2.610098 |
+| Household net worth | 7 | 1.934342 | 0.715320 | 2.704164 |
+| Household net worth | 8 | 2.235754 | 0.767188 | 2.914218 |
+| Public debt | 0 | 1.133826 | 1.000000 | 1.133826 |
+| Public debt | 1 | 1.976192 | 1.005037 | 1.966288 |
+| Public debt | 2 | 2.025439 | 0.827439 | 2.447842 |
+| Public debt | 3 | 1.687184 | 0.694680 | 2.428720 |
+| Public debt | 4 | 1.447030 | 0.654690 | 2.210251 |
+| Public debt | 5 | 1.462865 | 0.660888 | 2.213484 |
+| Public debt | 6 | 1.480933 | 0.654791 | 2.261686 |
+| Public debt | 7 | 1.584184 | 0.689284 | 2.298304 |
+| Public debt | 8 | 1.781344 | 0.752662 | 2.366726 |
+| Equal-weight average | 0 | 1.230870 | 1.000000 | 1.230870 |
+| Equal-weight average | 1 | 2.173748 | 1.016592 | 2.138271 |
+| Equal-weight average | 2 | 2.220461 | 0.836702 | 2.653826 |
+| Equal-weight average | 3 | 1.828109 | 0.704113 | 2.596329 |
+| Equal-weight average | 4 | 1.546395 | 0.662643 | 2.333679 |
+| Equal-weight average | 5 | 1.501283 | 0.663400 | 2.263012 |
+| Equal-weight average | 6 | 1.503822 | 0.644146 | 2.334599 |
+| Equal-weight average | 7 | 1.667233 | 0.686398 | 2.428959 |
+| Equal-weight average | 8 | 1.938312 | 0.748803 | 2.588548 |
