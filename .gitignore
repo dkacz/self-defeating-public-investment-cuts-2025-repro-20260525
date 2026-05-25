@@ -1,0 +1,11 @@
+/*
+!.gitignore
+!README.md
+!REPORT.md
+!REPRO_STATUS.md
+!code/
+!code/**
+!delivery/
+!delivery/**
+!qa/
+!qa/**

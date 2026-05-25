@@ -1,22 +1,24 @@
 # Public 2025 current notebook release
 
 Date: 2026-05-25T05:48:24Z
-Updated locally: 2026-05-25 after public-notebook remediation
+Updated locally: 2026-05-25T11:09:39Z after granular notebook and paper-number consistency repair
 
-Status: `PUBLIC_READER_NOTEBOOK_AND_BOOX_ACCOUNTING_REFRESH_PASS_PENDING_FINAL_REVIEW`.
+Status: `PUBLIC_READER_NOTEBOOK_GRANULAR_REBUILD_PASS_PENDING_PUBLIC_REFRESH_AND_FINAL_REVIEW`.
 
-This package originally exposed the current accepted 2025 notebook and article layer after strict Pro R6. After the later Pro remediation verdict and operator review, the public notebook layer has been rebuilt as a reader-facing executed notebook and refreshed on GitHub Pages. The Boox/current annotation-accounting layer has also been refreshed as R840 to mention the public notebook rebuild explicitly. The accepted numbers do not change. Wiki state and final public-delivery review still need to be refreshed before the broader delivery goal can be treated as closed.
+This package originally exposed the current accepted 2025 notebook and article layer after strict Pro R6. After the later Pro remediation verdict and operator review, the public notebook layer has been rebuilt as a reader-facing executed notebook. After the operator's further granularity instruction, it was rebuilt again so that every code cell is small and the notebook explicitly compares its central numbers with the paper reference tables. The accepted numbers do not change. Public GitHub Pages, Boox/current annotation accounting, wiki state and final public-delivery review still need to be refreshed before the broader delivery goal can be treated as closed.
 
 ## 2026-05-25 reader-notebook rebuild
 
 - New local notebook: `docs/notebooks/self_defeating_public_investment_cuts_2025_reproducibility.ipynb`
 - New local root page: `docs/index.html`
 - Old public audit-framed notebook removed locally from `docs/notebooks/`
-- Notebook cells: `320`
-- Code cells: `150`
-- Markdown cells: `170`
-- Maximum nonblank code lines per code cell: `20`
-- Code cells with adjacent explicit `Econometric sense.` explanations: `150/150`
+- Notebook cells: `589`
+- Code cells: `273`
+- Markdown cells: `316`
+- Maximum nonblank code lines per code cell: `10`
+- Code cells with adjacent explicit `Econometric sense.` explanations: `273/273`
+- Paper-number consistency checks: `6/6 pass`
+- Maximum absolute paper-reference difference: `1.4210854715202004e-14`
 - Execution errors: `0`
 - Visible internal round labels / `audit` / `QA` hits in the notebook and root page: `0`
 - Full local rebuild report: `artifacts/action_tasks/manuscript_imrad_20260427/public_notebook_remediation_pro_20260525/LOCAL_READER_NOTEBOOK_REBUILD_REPORT_20260525.md`
@@ -36,11 +38,12 @@ This package originally exposed the current accepted 2025 notebook and article l
 
 ## Key hashes
 
-- Notebook SHA-256: `005969a60454f803816f527e9618cdaacd3cb79a2aea060c6fbfa0dbe081d2b3`
+- Notebook SHA-256: `23e688351dab68a5c836c0cc2ac7ae8e59f5146eb2e864ec576369b258d60d6e`
+- Rendered public notebook HTML SHA-256: `eadf32d9fb0194065163350c8870fea2f122383fab13b988a04d06119f102953`
 - PDF SHA-256: `fda5ab3de8af7f6a21aed3e7adb0fb7137670d7e9e2ea3546f071354d238b150`
 - EPUB SHA-256: `fe5bfa51bd615019514cc300e5e1854897ba31af8ce476ff490426f8184074c5`
 - Current annotation-accounting EPUB SHA-256: `41df20b5eb926d61b4e493d6826b244483da61073fc071a4e90530b8cd6dc41f`
-- Full public package ZIP checksum is stored next to the ZIP as `docs/downloads/full_public_2025_repro_package.zip.sha256`.
+- Full public package ZIP SHA-256: stored only in `docs/downloads/full_public_2025_repro_package.zip.sha256` to avoid self-referential archive hashes.
 
 ## Publication QA
 
