@@ -616,8 +616,8 @@ show(availability_display)
 <div class='cell-label'>Output</div>
 <pre class='output'>                                            input                                       role        dataset  present_2025  missing_2025_count missing_2025_geo missing_2025_country         eurostat_updated
                             core_household_credit                     legacy liquidity input   nasa_10_f_bs            26                   1               IE                  IRL 2026-05-21T23:00:00+0200
-     replacement_household_total_financial_assets household net financial worth construction   nasa_10_f_bs            26                   1               IE                  IRL 2026-05-21T23:00:00+0200
-replacement_household_total_financial_liabilities household net financial worth construction   nasa_10_f_bs            26                   1               IE                  IRL 2026-05-21T23:00:00+0200
+     replacement_household_total_financial_assets Household net financial worth construction   nasa_10_f_bs            26                   1               IE                  IRL 2026-05-21T23:00:00+0200
+replacement_household_total_financial_liabilities Household net financial worth construction   nasa_10_f_bs            26                   1               IE                  IRL 2026-05-21T23:00:00+0200
                                      core_exports                legacy Investment import content-openness input    nama_10_gdp            27                   0              NaN                  NaN 2026-05-21T23:00:00+0200
                                 core_gdp_deflator                              core LP input    nama_10_gdp            27                   0              NaN                  NaN 2026-05-21T23:00:00+0200
                           core_gdp_per_capita_eur                        legacy income input     nama_10_pc            27                   0              NaN                  NaN 2026-05-22T11:00:00+0200
@@ -631,8 +631,8 @@ replacement_household_total_financial_liabilities household net financial worth 
                                 core_unemployment                   diagnostic/control input       une_rt_a            27                   0              NaN                  NaN 2026-04-29T23:00:00+0200
                          extra_government_revenue                    core fiscal ratio input   gov_10a_main            27                   0              NaN                  NaN 2026-04-22T11:00:00+0200
              extra_nominal_government_consumption                    core fiscal ratio input   gov_10a_main            27                   0              NaN                  NaN 2026-04-22T11:00:00+0200
-                   replacement_gdp_pc_current_pps               real PPP income construction     nama_10_pc            27                   0              NaN                  NaN 2026-05-22T11:00:00+0200
-               replacement_gdp_pc_real_index_2020               real PPP income construction     nama_10_pc            27                   0              NaN                  NaN 2026-05-22T11:00:00+0200
+                   replacement_gdp_pc_current_pps               Real PPP income construction     nama_10_pc            27                   0              NaN                  NaN 2026-05-22T11:00:00+0200
+               replacement_gdp_pc_real_index_2020               Real PPP income construction     nama_10_pc            27                   0              NaN                  NaN 2026-05-22T11:00:00+0200
 </pre>
 </section>
 <section class='markdown-cell'><h2 id="build-the-2025-eurostat-panel">Build the 2025 Eurostat
@@ -4566,10 +4566,10 @@ economic meanings rather than compact code labels.</p>
 <div class='cell-label'>Code</div>
 <pre class='source'><code>FEATURE_DISPLAY = {
     BASELINE_PATH: &quot;EU27 linear benchmark&quot;,
-    &quot;trade&quot;: &quot;Investment import content&quot;,
-    &quot;debt&quot;: &quot;Public debt&quot;,
-    &quot;liq&quot;: &quot;Household net financial worth&quot;,
-    &quot;log_gdp_pc&quot;: &quot;Real PPP income&quot;,
+    &quot;trade&quot;: &quot;investment import content&quot;,
+    &quot;debt&quot;: &quot;public debt&quot;,
+    &quot;liq&quot;: &quot;household net financial worth&quot;,
+    &quot;log_gdp_pc&quot;: &quot;real PPP income&quot;,
 }
 </code></pre>
 </section>
@@ -4927,7 +4927,7 @@ retained response paths   pass            45       True                  0  4.44
 retained Public debt endpoints   pass            10       True                  0  2.220446e-16
 all 2036 Public debt endpoints   pass            32       True                  0  2.220446e-16
  model-admission screen   pass            15       True                  0  1.421085e-14
- p-value appendix table  check            62      False                  0  0.000000e+00
+ p-value appendix table   pass            32       True                  0  0.000000e+00
     uncertainty summary   pass            48       True                  0  1.776357e-15
 </pre>
 </section>
@@ -5377,7 +5377,7 @@ Eurostat 2025 values enter only where an observed row exists   pass             
           TiVA is official-only and not extended beyond 2022   pass                                                                       latest official TiVA Year 2022; post-2022 source rows 0
            Main h=8 response uses the intended sample window   pass                                                                                                         shock years 2004-2017
           Notebook generated the current public figure files   pass figure_intro_dsa_baseline_path.png, figure_ky_paths.png, figure_output_spending_ratio_paths.png, figure_debt_margins_2036.png
-           Notebook numbers match the paper reference tables  check                                                                                                     5/6 reference tables pass
+           Notebook numbers match the paper reference tables   pass                                                                                                     6/6 reference tables pass
           Notebook execution completed without an error cell   pass                                                                                      all calculations above executed in order
 </pre>
 </section>
