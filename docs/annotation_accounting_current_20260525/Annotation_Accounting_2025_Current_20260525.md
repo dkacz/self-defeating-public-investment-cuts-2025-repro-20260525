@@ -4,11 +4,11 @@ Data: 26 maja 2026
 
 ## Wynik
 
-To jest poprawione rozliczenie uwag dodanych do pliku `Annotation_Accounting_2025_Current_20260525.epub`. Poprzednia wersja była zła: mieszała rzeczywiste anotacje operatora z ogólną kontrolą notebooka, powtarzała te same formuły i nie pokazywała dosłownie, co zostało zaznaczone.
+To jest bieżące rozliczenie 15 nowych uwag operatora. Dla każdej uwagi dokument pokazuje zaznaczony fragment, dosłowny komentarz operatora, decyzję naprawczą i status.
 
-Po naprawie wszystkie 15 nowych uwag ma osobną odpowiedź. Osiem uwag wymagało zmian w tekście paperu; te zmiany zostały wprowadzone i wyrenderowane do PDF, HTML oraz EPUB. Siedem uwag dotyczyło samego sposobu rozliczania anotacji; ten dokument został przez to przebudowany od zera.
+Osiem uwag dotyczy tekstu artykułu, a siedem dotyczy sposobu rozliczenia anotacji. Tekst artykułu zachowuje liczby, tabele, wykresy, estymację, regułę Irlandii/Eurostatu 2025 oraz oficjalny zakres danych OECD TiVA kończący się w 2022.
 
-Liczby, tabele, wykresy, estymacja, reguła Irlandii/Eurostatu 2025 i oficjalny koniec TiVA w 2022 nie zmieniły się. Zmieniła się warstwa tekstowa i rozliczeniowa: abstract jest krótszy, opis selekcji modeli jest mniej defensywny, appendixy zaczynają się od nowych stron, a rozliczenie pokazuje dosłowne komentarze operatora.
+Układ appendixów pozostaje następujący: Appendix A definiuje dane, zmienne stanu i kandydatów; Appendix B pokazuje ścieżki reakcji; Appendix C pokazuje przełożenie na dług; Appendix D zawiera pełne tabele estymacyjne. W PDF każdy appendix zaczyna się od osobnej strony.
 
 ## Skrót zmian
 
@@ -16,8 +16,8 @@ Liczby, tabele, wykresy, estymacja, reguła Irlandii/Eurostatu 2025 i oficjalny 
 | --- | --- |
 | Uwagi do abstractu | Zaadresowane przez skrócenie abstractu i przeniesienie szczegółów poza warstwę headline. |
 | Uwagi do selekcji modeli | Zaadresowane przez jaśniejszy opis reguły: najpierw kryteria wsparcia statystycznego, potem wybór prostych ścieżek ekonomicznych. |
-| Uwagi do języka danych 2025/TiVA | Zaadresowane przez usunięcie języka o „update” i „fabrication”. |
-| Uwagi do kolejności appendixów | Zaadresowane: Appendix A, B, C i D zaczynają się od nowych stron; kolejność zostaje A: dane i kandydaci, B: ścieżki reakcji, C: dług, D: estymacja. |
+| Uwagi do języka danych 2025/TiVA | Zaadresowane przez opisanie zakresu danych jako bieżącego okna źródeł oficjalnych: Eurostat do 2025 tam, gdzie obserwacje są dostępne, oraz OECD TiVA do 2022. |
+| Uwagi do kolejności appendixów | Zaadresowane: kolejność zostaje A: dane i kandydaci, B: ścieżki reakcji, C: dług, D: estymacja; każdy appendix zaczyna się od osobnej strony w PDF. |
 | Uwagi do samego rozliczenia | Zaadresowane przez usunięcie pozycji niebędących komentarzami operatora, dosłowne cytowanie komentarzy i niepowtarzalne odpowiedzi. |
 
 ## 1. Abstract: szczegóły Appendix A
@@ -148,7 +148,7 @@ Zastąpiono tę frazę zwykłym opisem tabel.
 
 **Dosłowny komentarz operatora:**
 
-> Jaki update? Nie możemy w paperze komentować jego ewolucji!
+> Jaki update? Nie możemy w paperze komentować jego ewolucji!,
 
 **Co zmieniono:**
 
@@ -172,7 +172,7 @@ Usunięto słowo „update”. Appendix A opisuje obecny zakres danych, nie hist
 
 **Co zmieniono:**
 
-Usunięto zdanie zbudowane wokół zaprzeczenia. Zamiast niego paper pozytywnie definiuje źródło: import content używa ostatniej oficjalnej obserwacji OECD TiVA, czyli 2022.
+Usunięto zdanie zbudowane wokół zaprzeczenia. Artykuł opisuje zakres źródła pozytywnie: investment import content używa oficjalnego okna OECD TiVA kończącego się w 2022.
 
 **Fragment po poprawce:**
 
@@ -296,6 +296,6 @@ Każda pozycja w nowym rozliczeniu ma pole „Dosłowny komentarz operatora”. 
 
 - 15 z 15 nowych anotacji ma osobną odpowiedź.
 - 15 z 15 odpowiedzi zawiera dosłowny komentarz operatora.
-- Problematyczne frazy z paperu zostały usunięte z obecnego źródła i z renderów HTML/PDF/EPUB.
+- Problematyczne frazy z artykułu zostały usunięte ze źródła i z renderów HTML/PDF/EPUB.
 - Aktywne rozliczenie nie zawiera już sekcji „Pozycje związane z notebookiem i odtwarzalnością” jako rzekomych anotacji operatora.
 - Ten dokument nie zmienia żadnej liczby paperu; zmienia jakość tekstu, układ appendixów i uczciwość rozliczenia.
