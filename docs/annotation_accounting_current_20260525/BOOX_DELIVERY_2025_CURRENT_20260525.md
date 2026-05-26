@@ -1,8 +1,8 @@
 # Boox delivery for current annotation accounting
 
-Date: 2026-05-25
+Date: 2026-05-26
 
-Status: `PASS`.
+Status: `PASS AFTER REPAIR`.
 
 ## Files included in the public package
 
@@ -13,11 +13,11 @@ Status: `PASS`.
 
 ## Hashes
 
-- EPUB SHA-256: `6f6cfd103ac57a095d318f4cb255c38b113491a0914c594a407de0933a8017c3`
-- HTML SHA-256: `c1cedf89a7d27ccfc601f7c32304660aee1000b8a8adafe5646e57b0f6a627c3`
-- Markdown SHA-256: `3b443c6daf9fc21e7b2f5d34b0a9f2d166a9f601e415ac403b9490607b754c61`
-- Checksum sidecar SHA-256: `8981aba092dfe8b16d5195bc335f0cfbe1ea2ca672cfd16a5bf3aad3ab4115ad`
+- EPUB SHA-256: `d7148fb003bd052048b6ae2c6690311cc385d8135b52859ac28806a725c0096f`
+- HTML SHA-256: `04e48dcbca8a33b85ba42b10f6211bf2210a8171a8c4ca05d3be1629c5a314b0`
+- Markdown SHA-256: `7dc4f77f5aa39943e249ca489db1baea591bbe662e90f25c2a287c95ece5d1e5`
+- Checksum sidecar SHA-256: `7c8d97e58958eac25a70431c676c1c3919fb4879d23ddd6e7317a11f60068f07`
 
 ## Meaning
 
-The public accounting note matches the current public notebook: it reports 607 cells, 281 code cells, a 10-line code-cell maximum and 6/6 paper-number consistency checks. The paper numbers themselves are unchanged.
+The previous accounting note was replaced because it did not literally account for the operator's Boox annotations. The repaired document now records all 15 follow-up annotations, quotes each operator comment verbatim, reports the specific repair, and points to the corrected manuscript or accounting text. Eight annotations required paper-text repairs; the manuscript was rerendered to PDF, HTML and EPUB. Seven annotations required rebuilding the accounting document itself. The paper numbers and method are unchanged.
