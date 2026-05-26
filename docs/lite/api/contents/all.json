@@ -94,7 +94,7 @@
       "mimetype": "application/epub+zip",
       "name": "manuscript_imrad.epub",
       "path": "manuscript_imrad.epub",
-      "size": 541137,
+      "size": 541138,
       "type": "file",
       "writable": true
     },
@@ -150,7 +150,7 @@
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "README.md",
-      "size": 873,
+      "size": 942,
       "type": "file",
       "writable": true
     },
@@ -164,7 +164,7 @@
       "mimetype": "text/markdown",
       "name": "REPORT.md",
       "path": "REPORT.md",
-      "size": 1293,
+      "size": 1333,
       "type": "file",
       "writable": true
     },
@@ -178,7 +178,7 @@
       "mimetype": "text/markdown",
       "name": "REPRO_STATUS.md",
       "path": "REPRO_STATUS.md",
-      "size": 1057,
+      "size": 1131,
       "type": "file",
       "writable": true
     },

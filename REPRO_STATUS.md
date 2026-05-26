@@ -2,7 +2,7 @@
 
 Current status: public notebook, package and paper-number checks synchronized.
 
-The public notebook is rendered directly on the landing page and is also available as a raw notebook file. It has 611 cells, 285 code cells, a maximum of 10 nonblank code lines per code cell, 0 multi-output code cells and a visible paper-number consistency section.
+The public notebook is rendered directly on the landing page and is also available as a raw notebook file. It has 607 cells, 281 code cells, a maximum of 10 nonblank lines in substantive code cells, one secondary helper cell for display labels and table formatting, 0 multi-output code cells and a visible paper-number consistency section.
 
 Paper-number consistency passes 6/6 checks: retained response paths, retained debt endpoints, all 2036 debt endpoints, the model-admission screen, the p-value appendix table and the uncertainty summary. The maximum absolute difference against paper-reference tables is 1.4210854715202004e-14.
 

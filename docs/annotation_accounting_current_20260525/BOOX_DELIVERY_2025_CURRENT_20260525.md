@@ -13,11 +13,11 @@ Status: `PASS`.
 
 ## Hashes
 
-- EPUB SHA-256: `042fdb704e75a94a01d9b90a8737cab3a5c6cfad2df9cd70c2fdce093b803cf7`
-- HTML SHA-256: `91fe3fef514eeba0a274c04817105ed19e08d1a2abdc70444631521643b0a43d`
-- Markdown SHA-256: `a3635078e518d7c21b2dc72dbc2fa2c124d2061a4b7ea53cffc6ea6725ff140a`
-- Checksum sidecar SHA-256: `05553550b7a88682021effb049d119cc9ebd6f807a67528b9e852081e698d75f`
+- EPUB SHA-256: `6f6cfd103ac57a095d318f4cb255c38b113491a0914c594a407de0933a8017c3`
+- HTML SHA-256: `c1cedf89a7d27ccfc601f7c32304660aee1000b8a8adafe5646e57b0f6a627c3`
+- Markdown SHA-256: `3b443c6daf9fc21e7b2f5d34b0a9f2d166a9f601e415ac403b9490607b754c61`
+- Checksum sidecar SHA-256: `8981aba092dfe8b16d5195bc335f0cfbe1ea2ca672cfd16a5bf3aad3ab4115ad`
 
 ## Meaning
 
-The public accounting note matches the current public notebook: it reports 611 cells, 285 code cells, a 10-line code-cell maximum and 6/6 paper-number consistency checks. The paper numbers themselves are unchanged.
+The public accounting note matches the current public notebook: it reports 607 cells, 281 code cells, a 10-line code-cell maximum and 6/6 paper-number consistency checks. The paper numbers themselves are unchanged.
