@@ -1,0 +1,71 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-26T13:21:38Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-26T13:21:38Z",
+      "mimetype": "text/csv",
+      "name": "eurostat_2024_2025_values_long.csv",
+      "path": "data/diagnostics/eurostat_2024_2025_values_long.csv",
+      "size": 122238,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-26T13:21:38Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-26T13:21:38Z",
+      "mimetype": "text/csv",
+      "name": "eurostat_2025_availability.csv",
+      "path": "data/diagnostics/eurostat_2025_availability.csv",
+      "size": 11634,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-26T13:21:38Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-26T13:21:38Z",
+      "mimetype": "text/csv",
+      "name": "eurostat_2025_extension_gate.csv",
+      "path": "data/diagnostics/eurostat_2025_extension_gate.csv",
+      "size": 700,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-26T13:21:38Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-26T13:21:38Z",
+      "mimetype": "text/csv",
+      "name": "eurostat_2025_poland_values.csv",
+      "path": "data/diagnostics/eurostat_2025_poland_values.csv",
+      "size": 1373,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-26T13:21:38Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-26T13:21:38Z",
+  "mimetype": null,
+  "name": "diagnostics",
+  "path": "data/diagnostics",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

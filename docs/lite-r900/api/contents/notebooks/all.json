@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-26T13:21:38Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-27T10:15:00Z",
+      "mimetype": "application/x-ipynb+json",
+      "name": "self_defeating_public_investment_cuts_2025_current_reader_notebook_r900_20260527.ipynb",
+      "path": "notebooks/self_defeating_public_investment_cuts_2025_current_reader_notebook_r900_20260527.ipynb",
+      "size": 382013,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-26T13:21:38Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-27T10:15:00Z",
+  "mimetype": null,
+  "name": "notebooks",
+  "path": "notebooks",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

@@ -1,0 +1,71 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-26T13:21:38Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-26T13:21:38Z",
+      "mimetype": null,
+      "name": "figures",
+      "path": "manuscript/figures",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-26T13:21:38Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-26T13:21:38Z",
+      "mimetype": null,
+      "name": "formatting",
+      "path": "manuscript/formatting",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-26T13:21:38Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-26T13:21:38Z",
+      "mimetype": null,
+      "name": "tables",
+      "path": "manuscript/tables",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-26T13:21:38Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-26T13:21:38Z",
+      "mimetype": "text/markdown",
+      "name": "manuscript_imrad.qmd",
+      "path": "manuscript/manuscript_imrad.qmd",
+      "size": 130418,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-26T13:21:38Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-26T13:21:38Z",
+  "mimetype": null,
+  "name": "manuscript",
+  "path": "manuscript",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

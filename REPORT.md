@@ -9,10 +9,10 @@ This package exposes the current 2025 article, the reader-facing executed notebo
 ## Notebook
 
 - path: `docs/notebooks/self_defeating_public_investment_cuts_2025_current_reader_notebook_r900_20260527.ipynb`
-- cells: 607
-- code cells: 281
-- markdown cells: 326
-- maximum nonblank lines in substantive code cells: 10
+- cells: 593
+- code cells: 274
+- markdown cells: 319
+- maximum nonblank lines in substantive code cells: 20
 - secondary helper code cells: 1
 - paper-number consistency: 6/6 pass
 - maximum absolute paper-reference difference: 1.4210854715202004e-14
@@ -20,6 +20,7 @@ This package exposes the current 2025 article, the reader-facing executed notebo
 ## Public URLs
 
 - landing page: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/`
+- interactive notebook: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/lite-r900/lab/index.html?path=notebooks/self_defeating_public_investment_cuts_2025_current_reader_notebook_r900_20260527.ipynb`
 - raw notebook: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/notebooks/self_defeating_public_investment_cuts_2025_current_reader_notebook_r900_20260527.ipynb`
 - annotation accounting EPUB: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/annotation_accounting_current_20260525/Annotation_Accounting_2025_Current_20260525.epub`
 

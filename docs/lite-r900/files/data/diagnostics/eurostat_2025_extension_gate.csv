@@ -1,0 +1,4 @@
+gate,status,reason
+strict_eu27_2025_current_vintage,BLOCKED,Missing 2025 annual Eurostat observations for at least one EU27 country: core_household_credit missing IRL | replacement_household_total_financial_assets missing IRL | replacement_household_total_financial_liabilities missing IRL
+adopted_official_tiva_2025_profile,BLOCKED,"The adopted investment-import-content source is OECD TiVA, not Eurostat, and the official public file used by the manuscript returns observations only through 2022."
+estimate_extra_year_effect,NOT_RUN,"A strict EU27 2025 extension is blocked before estimation; dropping Ireland, imputing financial accounts, or carrying TiVA forward would be a new design decision."
