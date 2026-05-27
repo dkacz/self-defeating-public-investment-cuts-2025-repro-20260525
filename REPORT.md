@@ -8,7 +8,7 @@ This package exposes the current 2025 article, the reader-facing executed notebo
 
 ## Notebook
 
-- path: `docs/notebooks/self_defeating_public_investment_cuts_2025_current_reader_notebook_20260527.ipynb`
+- path: `docs/notebooks/self_defeating_public_investment_cuts_2025_current_reader_notebook_r900_20260527.ipynb`
 - cells: 607
 - code cells: 281
 - markdown cells: 326
@@ -20,7 +20,7 @@ This package exposes the current 2025 article, the reader-facing executed notebo
 ## Public URLs
 
 - landing page: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/`
-- raw notebook: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/notebooks/self_defeating_public_investment_cuts_2025_current_reader_notebook_20260527.ipynb`
+- raw notebook: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/notebooks/self_defeating_public_investment_cuts_2025_current_reader_notebook_r900_20260527.ipynb`
 - annotation accounting EPUB: `https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260525/annotation_accounting_current_20260525/Annotation_Accounting_2025_Current_20260525.epub`
 
 ## Meaning
